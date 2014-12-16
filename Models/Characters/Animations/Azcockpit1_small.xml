@@ -1,0 +1,7 @@
+<?xml version="1.0"?>
+<Model Name="Azcockpit1_small">
+  <Parameter Name="Centered">false</Parameter>
+  <Parameter Name="SpecularPower">10</Parameter>
+  <Parameter Name="SpecularShininess">0.8</Parameter>
+  <Parameter Name="SkipAssimpPivots">true</Parameter>
+</Model>

@@ -1,0 +1,34 @@
+<?xml version="1.0"?>
+<Definitions xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:xsd="http://www.w3.org/2001/XMLSchema">
+  <Blueprints>
+    <Blueprint>
+      <Id>
+        <TypeId>BlueprintDefinition</TypeId>
+        <SubtypeId>CrystalOreToCrystalShard</SubtypeId>
+      </Id>
+      <Prerequisites>
+        <Item Amount="1" TypeId="Ore" SubtypeId="Crystal" />
+      </Prerequisites>
+      <Result Amount="0.4" TypeId="Ingot" SubtypeId="Crystal" />
+      <BaseProductionTimeInSeconds>40</BaseProductionTimeInSeconds>
+    </Blueprint>
+    <Blueprint>
+      <Id>
+        <TypeId>BlueprintDefinition</TypeId>
+        <SubtypeId>CrystallineComponent</SubtypeId>
+      </Id>
+      <DisplayName>Crystalline</DisplayName>
+      <Icon>Textures\GUI\Icons\component\Crystalline.dds</Icon>
+        <Prerequisites>
+          <Item Amount="1" TypeId="Ingot" SubtypeId="Crystal" />
+          <Item Amount="25" TypeId="Ingot" SubtypeId="Stone" />
+        </Prerequisites>
+        <Result Amount="1" TypeId="Component" SubtypeId="Crystalline" />
+      <BaseProductionTimeInSeconds>1</BaseProductionTimeInSeconds>
+    </Blueprint>
+  </Blueprints>
+  <BlueprintClassEntries>
+    <Entry Class="Ingots" BlueprintSubtypeId="CrystalOreToCrystalShard" />
+    <Entry Class="Components" BlueprintSubtypeId="CrystallineComponent" />
+  </BlueprintClassEntries>
+</Definitions>

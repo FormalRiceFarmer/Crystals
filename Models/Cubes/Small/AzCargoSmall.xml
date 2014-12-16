@@ -1,0 +1,48 @@
+<?xml version="1.0"?>
+<Model Name="AzCargoSmall">
+  <Parameter Name="Centered">false</Parameter>
+  <Parameter Name="RescaleFactor">0.01</Parameter>
+  <Parameter Name="RescaleToLengthInMeters">false</Parameter>
+  <Parameter Name="SpecularPower">10</Parameter>
+  <Parameter Name="SpecularShininess">0.8</Parameter>
+  <Material Name="MainBody">
+    <Parameter Name="SpecularIntensity">0</Parameter>
+    <Parameter Name="SpecularPower">2</Parameter>
+    <Parameter Name="DiffuseColorX">255</Parameter>
+    <Parameter Name="DiffuseColorY">255</Parameter>
+    <Parameter Name="DiffuseColorZ">255</Parameter>
+    <Parameter Name="Texture">Textures\Models\Cubes\large_interior_turret_me.dds</Parameter>
+    <Parameter Name="NormalTexture" />
+    <Parameter Name="Technique">MESH</Parameter>
+  </Material>
+  <Material Name="Cargo1">
+    <Parameter Name="SpecularIntensity">0</Parameter>
+    <Parameter Name="SpecularPower">2</Parameter>
+    <Parameter Name="DiffuseColorX">255</Parameter>
+    <Parameter Name="DiffuseColorY">255</Parameter>
+    <Parameter Name="DiffuseColorZ">255</Parameter>
+    <Parameter Name="Texture">Textures\Models\Cubes\large_cargo_container_large_de.dds</Parameter>
+    <Parameter Name="Technique">MESH</Parameter>
+    <Parameter Name="NormalTexture" />
+  </Material>
+  <Material Name="Logo">
+    <Parameter Name="SpecularIntensity">1.3</Parameter>
+    <Parameter Name="SpecularPower">15</Parameter>
+    <Parameter Name="DiffuseColorX">255</Parameter>
+    <Parameter Name="DiffuseColorY">255</Parameter>
+    <Parameter Name="DiffuseColorZ">255</Parameter>
+    <Parameter Name="Texture">Textures\Models\Cubes\Az_Logo_me.dds</Parameter>
+    <Parameter Name="Technique">MESH</Parameter>
+    <Parameter Name="NormalTexture" />
+  </Material>
+  <Material Name="Tablet_M">
+    <Parameter Name="SpecularIntensity">0</Parameter>
+    <Parameter Name="SpecularPower">2</Parameter>
+    <Parameter Name="DiffuseColorX">255</Parameter>
+    <Parameter Name="DiffuseColorY">255</Parameter>
+    <Parameter Name="DiffuseColorZ">255</Parameter>
+    <Parameter Name="Texture">Textures\Models\Cubes\ScreenTab_T_me.dds</Parameter>
+    <Parameter Name="Technique">MESH</Parameter>
+    <Parameter Name="NormalTexture" />
+  </Material>
+</Model>

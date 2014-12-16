@@ -1,0 +1,39 @@
+<?xml version="1.0"?>
+<Definitions xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:xsd="http://www.w3.org/2001/XMLSchema">
+  <PhysicalItems>
+    <PhysicalItem>
+      <Id>
+        <TypeId>Ore</TypeId>
+        <SubtypeId>Crystal</SubtypeId>
+      </Id>
+      <DisplayName>Raw Crystal</DisplayName>
+      <Icon>Textures\GUI\Icons\ore_crystal.dds</Icon>
+      <Size>
+        <X>1</X>
+        <Y>1</Y>
+        <Z>1</Z>
+      </Size>
+      <Mass>1</Mass>
+      <Volume>0.37</Volume>
+      <Model>Models\Components\Sphere.mwm</Model>
+      <!--<IconSymbol>H20</IconSymbol>-->
+    </PhysicalItem>
+    <PhysicalItem>
+      <Id>
+        <TypeId>Ingot</TypeId>
+        <SubtypeId>Crystal</SubtypeId>
+      </Id>
+      <DisplayName>Crystal Shard</DisplayName>
+      <Icon>Textures\GUI\Icons\ingot\crystal_shard.dds</Icon>
+      <Size>
+        <X>1</X>
+        <Y>1</Y>
+        <Z>1</Z>
+      </Size>
+      <Mass>1</Mass>
+      <Volume>0.37</Volume>
+      <Model>Models\Ingots\crystal_shard.mwm</Model>
+      <!--<IconSymbol>K</IconSymbol>-->
+    </PhysicalItem>
+  </PhysicalItems>
+</Definitions>

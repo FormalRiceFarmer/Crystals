@@ -1,0 +1,114 @@
+<?xml version="1.0"  encoding="utf-8"?>
+<Definitions xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:xsd="http://www.w3.org/2001/XMLSchema">
+  <CategoryClasses>
+    <Category xsi:type="MyObjectBuilder_GuiBlockCategoryDefinition">
+      <Id>
+        <TypeId>GuiBlockCategoryDefinition</TypeId>
+        <SubtypeId/>
+      </Id>
+      <DisplayName>DisplayName_Category_ShipWeaponsTools</DisplayName>
+      <Name>ShipWeaponsTools</Name>
+      <SearchBlocks>true</SearchBlocks>
+      <IsShipCategory>true</IsShipCategory>
+      <IsBlockCategory>false</IsBlockCategory>
+      <ItemIds>
+        <string>SmallMissileLauncher/AzimuthLauncher</string>
+        <string>SmallGatlingGun/AzimuthGatlingGun</string>
+        <string>SmallGatlingGun/AzimuthGatlingGunSmall</string>
+      </ItemIds>
+    </Category>
+    <Category xsi:type="MyObjectBuilder_GuiBlockCategoryDefinition">
+      <Id>
+        <TypeId>GuiBlockCategoryDefinition</TypeId>
+        <SubtypeId/>
+      </Id>
+      <DisplayName>Azimuth Industries Master Pack</DisplayName>
+      <Name>Azimuth Industries Master Pack</Name>
+      <ItemIds>
+
+        <string>CargoContainer/Azimuth_LargeContainer</string>
+
+        <string>CargoContainer/Azimuth_MediumLargeContainer</string>
+
+        <string>CargoContainer/Azimuth_SmallContainer</string>
+
+        <string>CargoContainer/Azimuth_MediumContainer</string>
+		
+
+        <string>CubeBlock/AzimuthShieldSlant</string>
+
+        <string>CubeBlock/AzimuthShieldSlantLarge</string>
+
+        <string>CubeBlock/AzimuthShieldSlantglass</string>
+
+
+        <string>SmallMissileLauncher/AzimuthLauncher</string>
+
+        <string>Conveyor/AzimuthConveyor</string>
+
+        <string>SmallGatlingGun/AzimuthGatlingGun</string>
+
+        <string>Drill/SmallDrill</string>
+
+
+        <string>Reactor/V8Engine</string>
+
+        <string>Reactor/V8EngineTurbo</string>
+		
+        <string>Reactor/Azreactorsmall</string>
+		
+        <string>Reactor/AzFusionreactorlarge</string>
+		
+        <string>BatteryBlock/AzBatteryLarge</string>
+		
+        <string>BatteryBlock/AzBattery</string>
+
+        <string>RadioAntenna/AntennaLarge</string>
+		
+        <string>RadioAntenna/AntennaCustom</string>
+		
+        <string>OreDetector/SmallOreDetector</string>
+
+
+        <string>Thrust/AzimuthThruster</string>
+
+        <string>Thrust/AzimuthLargeShipThruster</string>
+
+        <string>Thrust/AzimuthLargeShipThrusterBig</string>
+		
+		<string>Thrust/AzimuthSmallShipThrusterBig</string>
+		
+		<string>Thrust/AzimuthLargeShipThrusterSloped</string>
+
+        <string>Thrust/AzimuthThrusterSloped</string>
+
+        <string>Thrust/AzimuthThrusterAngled</string>
+
+        <string>Thrust/AzimuthThrusterFlat</string>
+		
+		<string>Thrust/AzimuthLargeThrusterFlat</string>
+		
+		<string>Thrust/AzimuthLargeThrusterAngled</string>
+
+        <string>Thrust/AzimuthLauncher</string>
+
+        <string>Thrust/AzimuthBig</string>
+
+        <string>Thrust/AzimuthBigSmall</string>
+
+        <string>SmallGatlingGun/AzimuthGatlingGunSmall</string>
+		
+        <string>Assembler/AzSmallAssembler</string>
+		
+        <string>Cockpit/AzCockpitSmall</string>
+		
+        <string>Cockpit/AzPassengerCockpitSmall</string>
+		
+        <string>Cockpit/AzPassengerSeatSmall</string>
+		
+        <string>Cockpit/AzPassengerSeatLarge</string>
+		
+      </ItemIds>
+    </Category>
+</CategoryClasses>
+</Definitions>

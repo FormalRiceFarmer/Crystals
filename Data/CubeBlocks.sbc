@@ -1,0 +1,1845 @@
+<?xml version="1.0"?>
+<Definitions xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:xsd="http://www.w3.org/2001/XMLSchema">
+  <CubeBlocks>
+
+<!-- Start Azimuth Containers Region -->
+<Definition xsi:type="MyObjectBuilder_CargoContainerDefinition">
+      <Id>
+        <TypeId>CargoContainer</TypeId>
+        <SubtypeId>Azimuth_LargeContainer</SubtypeId>
+      </Id>
+      <DisplayName>Azimuth Large Container</DisplayName>
+      <Icon>Textures\GUI\Icons\Cubes\Cargo.dds</Icon>
+      <CubeSize>Large</CubeSize>
+      <BlockTopology>TriangleMesh</BlockTopology>
+      <Size x="3" y="3" z="6" />
+      <ModelOffset x="0" y="0" z="0" />
+      <Model>Models\Cubes\Large\AzCargoLarge.mwm</Model>
+      <Components>
+        <Component Subtype="InteriorPlate" Count="5500" />
+		<Component Subtype="Crystalline" Count="50" />
+        <Component Subtype="Construction" Count="1800" />
+        <Component Subtype="SmallTube" Count="480" />
+        <Component Subtype="Motor" Count="258" />
+        <Component Subtype="Display" Count="8" />
+        <Component Subtype="Computer" Count="250" />
+        <Component Subtype="Construction" Count="125" />
+        <Component Subtype="InteriorPlate" Count="1100" />
+      </Components>
+      <CriticalComponent Subtype="Computer" Index="0" />
+      <BuildProgressModels>
+        <Model BuildPercentUpperBound="0.33" File="Models\Cubes\Large\AzCargoLarge_Construction_1.mwm" />
+        <Model BuildPercentUpperBound="0.66" File="Models\Cubes\Large\AzCargoLarge_Construction_2.mwm" />
+        <Model BuildPercentUpperBound="1.00" File="Models\Cubes\Large\AzCargoLarge_Construction_3.mwm" />
+      </BuildProgressModels>
+      <BlockPairName>Azimuth_LargeContainer</BlockPairName>
+      <MirroringY>Z</MirroringY>
+      <MirroringZ>Y</MirroringZ>
+      <EdgeType>Light</EdgeType>
+      <BuildTimeSeconds>115</BuildTimeSeconds>
+      <Center x="1" y="1" z="3" />
+      <InventorySize>
+        <X>12</X>
+        <Y>12</Y>
+        <Z>12</Z>
+      </InventorySize>
+    </Definition>
+<Definition xsi:type="MyObjectBuilder_CargoContainerDefinition">
+      <Id>
+        <TypeId>CargoContainer</TypeId>
+        <SubtypeId>Azimuth_MediumLargeContainer</SubtypeId>
+      </Id>
+      <DisplayName>Azimuth Medium Container</DisplayName>
+      <Icon>Textures\GUI\Icons\Cubes\MedCargo.dds</Icon>
+      <CubeSize>Large</CubeSize>
+      <BlockTopology>TriangleMesh</BlockTopology>
+      <Size x="1" y="1" z="2" />
+      <ModelOffset x="0" y="0" z="0" />
+      <Model>Models\Cubes\Large\AzCargoMediumLarge.mwm</Model>
+      <Components>
+        <Component Subtype="InteriorPlate" Count="200" />
+		<Component Subtype="Crystalline" Count="25" />
+        <Component Subtype="Construction" Count="80" />
+        <Component Subtype="SmallTube" Count="25" />
+        <Component Subtype="Motor" Count="25" />
+        <Component Subtype="Display" Count="4" />
+        <Component Subtype="Computer" Count="37" />
+        <Component Subtype="Construction" Count="12" />
+        <Component Subtype="InteriorPlate" Count="77" />
+      </Components>
+      <CriticalComponent Subtype="Computer" Index="0" />
+      <BuildProgressModels>
+        <Model BuildPercentUpperBound="0.33" File="Models\Cubes\Large\AzCargoMediumLarge_Construction_1.mwm" />
+        <Model BuildPercentUpperBound="0.66" File="Models\Cubes\Large\AzCargoMediumLarge_Construction_2.mwm" />
+        <Model BuildPercentUpperBound="1.00" File="Models\Cubes\Large\AzCargoMediumLarge_Construction_3.mwm" />
+      </BuildProgressModels>
+      <BlockPairName>Azimuth_MediumContainer</BlockPairName>
+      <MirroringY>Z</MirroringY>
+      <MirroringZ>Y</MirroringZ>
+      <EdgeType>Light</EdgeType>
+      <BuildTimeSeconds>65</BuildTimeSeconds>
+      <Center x="0" y="0" z="1" />
+      <InventorySize>
+        <X>5</X>
+        <Y>5</Y>
+        <Z>2.96</Z>
+      </InventorySize>
+    </Definition>
+<Definition xsi:type="MyObjectBuilder_CargoContainerDefinition">
+      <Id>
+        <TypeId>CargoContainer</TypeId>
+        <SubtypeId>Azimuth_SmallContainer</SubtypeId>
+      </Id>
+      <DisplayName>Azimuth Small Container</DisplayName>
+      <Icon>Textures\GUI\Icons\Cubes\Cargo.dds</Icon>
+      <CubeSize>Small</CubeSize>
+      <BlockTopology>TriangleMesh</BlockTopology>
+      <Size x="3" y="3" z="6" />
+      <ModelOffset x="0" y="0" z="0" />
+      <Model>Models\Cubes\Small\AzCargoSmall.mwm</Model>
+      <Components>
+        <Component Subtype="InteriorPlate" Count="55" />
+		<Component Subtype="Crystalline" Count="25" />
+        <Component Subtype="Construction" Count="33" />
+        <Component Subtype="Computer" Count="12" />
+        <Component Subtype="Motor" Count="18" />
+        <Component Subtype="Display" Count="4" />
+        <Component Subtype="InteriorPlate" Count="25" />
+      </Components>
+      <CriticalComponent Subtype="Computer" Index="0" />
+      <BuildProgressModels>
+        <Model BuildPercentUpperBound="0.33" File="Models\Cubes\Small\AzCargoSmall_Construction_1.mwm" />
+        <Model BuildPercentUpperBound="0.66" File="Models\Cubes\Small\AzCargoSmall_Construction_2.mwm" />
+        <Model BuildPercentUpperBound="1.00" File="Models\Cubes\Small\AzCargoSmall_Construction_3.mwm" />
+      </BuildProgressModels>
+      <BlockPairName>Azimuth_LargeContainer</BlockPairName>
+      <MirroringY>Z</MirroringY>
+      <MirroringZ>Y</MirroringZ>
+      <EdgeType>Light</EdgeType>
+      <BuildTimeSeconds>35</BuildTimeSeconds>
+      <Center x="1" y="1" z="3" />
+      <InventorySize>
+        <X>2.5</X>
+        <Y>2.5</Y>
+        <Z>2.5</Z>
+      </InventorySize>
+    </Definition>
+<Definition xsi:type="MyObjectBuilder_CargoContainerDefinition">
+      <Id>
+        <TypeId>CargoContainer</TypeId>
+        <SubtypeId>Azimuth_MediumContainer</SubtypeId>
+      </Id>
+      <DisplayName>Azimuth Medium Container</DisplayName>
+      <Icon>Textures\GUI\Icons\Cubes\MedCargo.dds</Icon>
+      <CubeSize>Small</CubeSize>
+      <BlockTopology>TriangleMesh</BlockTopology>
+      <Size x="5" y="5" z="9" />
+      <ModelOffset x="0" y="0" z="0" />
+      <Model>Models\Cubes\Small\AzCargoMedium.mwm</Model>
+      <Components>
+        <Component Subtype="InteriorPlate" Count="210" />
+		<Component Subtype="Crystalline" Count="25" />
+        <Component Subtype="Construction" Count="83" />
+        <Component Subtype="Computer" Count="33" />
+        <Component Subtype="Motor" Count="50" />
+        <Component Subtype="Display" Count="4" />
+        <Component Subtype="InteriorPlate" Count="40" />
+      </Components>
+      <CriticalComponent Subtype="Computer" Index="0" />
+      <BuildProgressModels>
+        <Model BuildPercentUpperBound="0.33" File="Models\Cubes\Small\AzCargoMedium_Construction_1.mwm" />
+        <Model BuildPercentUpperBound="0.66" File="Models\Cubes\Small\AzCargoMedium_Construction_2.mwm" />
+        <Model BuildPercentUpperBound="1.00" File="Models\Cubes\Small\AzCargoMedium_Construction_3.mwm" />
+      </BuildProgressModels>
+      <BlockPairName>Azimuth_MediumContainer</BlockPairName>
+      <MirroringY>Z</MirroringY>
+      <MirroringZ>Y</MirroringZ>
+      <EdgeType>Light</EdgeType>
+      <BuildTimeSeconds>55</BuildTimeSeconds>
+      <Center x="2" y="2" z="5" />
+      <InventorySize>
+        <X>4</X>
+        <Y>4</Y>
+        <Z>4.1</Z>
+      </InventorySize>
+    </Definition>
+<!-- End Azimuth Containers Region -->
+
+
+<!-- Start Azimuth Thrusters Region -->
+	    <Definition xsi:type="MyObjectBuilder_ThrustDefinition">
+      <Id>
+        <TypeId>Thrust</TypeId>
+        <SubtypeId>AzimuthBig</SubtypeId>
+      </Id>
+      <DisplayName>Azimuth BIG Thruster</DisplayName>
+      <Icon>Textures/textures/Thrustersmall/GUI/AzimuthBig.dds</Icon>
+      <CubeSize>Large</CubeSize>
+      <BlockTopology>TriangleMesh</BlockTopology>
+      <Size x="4" y="2" z="10" />
+      <ModelOffset x="0" y="0" z="0" />
+      <Model>Models/Thrustersmall/LargeThruster.mwm</Model>
+      <Components>
+	<Component Subtype="SteelPlate" Count="120" />
+	<Component Subtype="Crystalline" Count="25" />
+	<Component Subtype="Construction" Count="260" />
+	<Component Subtype="SmallTube" Count="240" />
+	<Component Subtype="LargeTube" Count="80" />
+	<Component Subtype="Thrust" Count="2000" />
+	<Component Subtype="AzimuthSupercharger" Count="1600" />
+	<Component Subtype="Construction" Count="540" />
+	<Component Subtype="SteelPlate" Count="280" />
+      </Components>
+      <CriticalComponent Subtype="AzimuthSupercharger" Index="0" />
+      <BuildProgressModels>
+        <Model BuildPercentUpperBound="0.20" File="Models/Thrustersmall/LargeThruster.mwm" />
+      </BuildProgressModels>
+      <BlockPairName>AzimuthBigThruster</BlockPairName>
+      <Center x="2" y="0" z="9" />
+      <MirroringY>Z</MirroringY>
+      <MirroringZ>Y</MirroringZ>
+      <BuildTimeSeconds>80</BuildTimeSeconds>
+      <EdgeType>Light</EdgeType>
+      <ForceMagnitude>6350000</ForceMagnitude>
+      <MaxPowerConsumption>42.3</MaxPowerConsumption>
+      <MinPowerConsumption>0.000002</MinPowerConsumption>
+      <FlameDamageLengthScale>0.6</FlameDamageLengthScale>
+      <FlameDamage>0</FlameDamage>
+      <FlameLengthScale>2.10</FlameLengthScale>
+      <FlameIdleColor>
+        <X>1.0</X>
+        <Y>1.0</Y>
+        <Z>1.0</Z>
+        <W>0.75</W>
+      </FlameIdleColor>
+      <FlameFullColor>
+        <X>1.0</X>
+        <Y>1.0</Y>
+        <Z>1.0</Z>
+        <W>0.75</W>
+      </FlameFullColor>
+      <FlamePointMaterial>Azimuth_Thruster_EngineThrustMiddle</FlamePointMaterial>
+      <FlameLengthMaterial>Azimuth_Thruster_EngineThrustLength</FlameLengthMaterial>
+      <FlameGlareMaterial>Azimuth_Thruster_EngineThrustGlare</FlameGlareMaterial>
+      <FlameVisibilityDistance>200</FlameVisibilityDistance>
+      <FlameGlareSize>0.600</FlameGlareSize>
+      <FlameGlareQuerySize>2</FlameGlareQuerySize>
+      <PrimarySound>SmShipSmJet</PrimarySound>
+    </Definition>
+    <Definition xsi:type="MyObjectBuilder_ThrustDefinition">
+      <Id>
+        <TypeId>Thrust</TypeId>
+        <SubtypeId>AzimuthBigSmall</SubtypeId>
+      </Id>
+      <DisplayName>Azimuth BIG Thruster</DisplayName>
+      <Icon>Textures/textures/Thrustersmall/GUI/AzimuthBig.dds</Icon>
+      <CubeSize>Small</CubeSize>
+      <BlockTopology>TriangleMesh</BlockTopology>
+      <Size x="3" y="2" z="10" />
+      <ModelOffset x="0" y="0" z="0" />
+      <Model>Models/Thrustersmall/Small_Large_Thruster.mwm</Model>
+      <Components>
+	<Component Subtype="SteelPlate" Count="15" />
+	<Component Subtype="Crystalline" Count="10" />
+	<Component Subtype="Construction" Count="12" />
+	<Component Subtype="LargeTube" Count="4" />
+	<Component Subtype="LargeTube" Count="8" />
+	<Component Subtype="Thrust" Count="16" />
+	<Component Subtype="AzimuthSupercharger" Count="20" />
+	<Component Subtype="Construction" Count="8" />
+	<Component Subtype="SteelPlate" Count="10" />
+      </Components>
+      <CriticalComponent Subtype="AzimuthSupercharger" Index="0" />
+      <BuildProgressModels>
+        <Model BuildPercentUpperBound="0.20" File="Models/Thrustersmall/Construction/Small_Large_Thruster_Construction_1.mwm" />
+        <Model BuildPercentUpperBound="0.40" File="Models/Thrustersmall/Construction/Small_Large_Thruster_Construction_2.mwm" />
+        <Model BuildPercentUpperBound="0.60" File="Models/Thrustersmall/Construction/Small_Large_Thruster_Construction_3.mwm" />
+        <Model BuildPercentUpperBound="1.00" File="Models/Thrustersmall/Construction/Small_Large_Thruster_Construction_4.mwm" />
+      </BuildProgressModels>
+      <BlockPairName>AzimuthBigThruster</BlockPairName>
+      <Center x="1" y="0" z="9" />
+      <MirroringY>Z</MirroringY>
+      <MirroringZ>Y</MirroringZ>
+      <BuildTimeSeconds>60</BuildTimeSeconds>
+      <EdgeType>Light</EdgeType>
+      <ForceMagnitude>600000</ForceMagnitude>
+      <MaxPowerConsumption>1.875</MaxPowerConsumption>
+      <MinPowerConsumption>0.000002</MinPowerConsumption>
+      <FlameDamageLengthScale>0.6</FlameDamageLengthScale>
+      <FlameDamage>0</FlameDamage>
+      <FlameLengthScale>2.10</FlameLengthScale>
+      <FlameIdleColor>
+        <X>1.0</X>
+        <Y>1.0</Y>
+        <Z>1.0</Z>
+        <W>0.75</W>
+      </FlameIdleColor>
+      <FlameFullColor>
+        <X>1.0</X>
+        <Y>1.0</Y>
+        <Z>1.0</Z>
+        <W>0.75</W>
+      </FlameFullColor>
+      <FlamePointMaterial>Azimuth_Thruster_EngineThrustMiddle</FlamePointMaterial>
+      <FlameLengthMaterial>Azimuth_Thruster_EngineThrustLength</FlameLengthMaterial>
+      <FlameGlareMaterial>Azimuth_Thruster_EngineThrustGlare</FlameGlareMaterial>
+      <FlameVisibilityDistance>200</FlameVisibilityDistance>
+      <FlameGlareSize>0.400</FlameGlareSize>
+      <FlameGlareQuerySize>2</FlameGlareQuerySize>
+      <PrimarySound>SmShipSmJet</PrimarySound>
+    </Definition>
+<!-- End Azimuth Thrusters Region -->
+
+<!-- Start Azimuth Shields Region -->
+	<Definition>
+      <Id>
+        <TypeId>CubeBlock</TypeId>
+        <SubtypeId>AzimuthShieldSlant</SubtypeId>
+      </Id>
+      <DisplayName>Az-Shield Slant</DisplayName>
+	  <BlockPairName>ShieldSlant</BlockPairName>
+      <Icon>Textures\textures\Shield\GUI\shield.dds</Icon>
+      <CubeSize>Small</CubeSize>
+      <BlockTopology>TriangleMesh</BlockTopology>
+      <Size x="1" y="1" z="1" />
+      <ModelOffset x="0" y="0" z="0" />
+      <Model>Models\small\Shield_Slant.mwm</Model>
+      <Components>
+        <Component Subtype="SteelPlate" Count="10" />
+		<Component Subtype="Crystalline" Count="5" />
+        <Component Subtype="SmallTube" Count="8" />
+        <Component Subtype="Construction" Count="12" />
+        <Component Subtype="SteelPlate" Count="40" />
+      </Components>
+      <CriticalComponent Subtype="SteelPlate" Index="0" />
+      <BuildProgressModels>
+        <Model BuildPercentUpperBound="0.20" File="Models/small/Small_Sloped_Small_Construction_1.mwm" />
+		<Model BuildPercentUpperBound="1.00" File="Models/small/Small_Sloped_Small_Construction_1.mwm" />
+      </BuildProgressModels>
+      <MirroringY>Z</MirroringY>
+      <MirroringZ>Y</MirroringZ>
+      <BuildTimeSeconds>24</BuildTimeSeconds>
+      <EdgeType>Light</EdgeType>
+    </Definition>
+<Definition>
+      <Id>
+        <TypeId>CubeBlock</TypeId>
+        <SubtypeId>AzimuthShieldSlantLarge</SubtypeId>
+      </Id>
+      <DisplayName>Az-Shield Slant Large</DisplayName>
+	  <BlockPairName>ShieldSlant</BlockPairName>
+      <Icon>Textures\textures\Shield\GUI\shield.dds</Icon>
+      <CubeSize>Large</CubeSize>
+      <BlockTopology>TriangleMesh</BlockTopology>
+      <Size x="1" y="1" z="1" />
+      <ModelOffset x="0" y="0" z="0" />
+      <Model>Models\large\Shield_Slant_LargeShip.mwm</Model>
+      <Components>
+        <Component Subtype="SteelPlate" Count="60" />
+		<Component Subtype="Crystalline" Count="15" />
+        <Component Subtype="SmallTube" Count="18" />
+        <Component Subtype="Construction" Count="22" />
+        <Component Subtype="SteelPlate" Count="190" />
+      </Components>
+      <CriticalComponent Subtype="SteelPlate" Index="0" />
+      <BuildProgressModels>
+        <Model BuildPercentUpperBound="0.20" File="Models/small/Small_Sloped_Large_Construction_1.mwm" />
+		<Model BuildPercentUpperBound="1.00" File="Models/small/Small_Sloped_Large_Construction_1.mwm" />
+      </BuildProgressModels>
+      <MirroringY>Z</MirroringY>
+      <MirroringZ>Y</MirroringZ>
+      <BuildTimeSeconds>30</BuildTimeSeconds>
+      <EdgeType>Light</EdgeType>
+    </Definition>
+<Definition>
+      <Id>
+        <TypeId>CubeBlock</TypeId>
+        <SubtypeId>AzimuthShieldSlantglass</SubtypeId>
+      </Id>
+      <DisplayName>Az-Shield Slant Invisible</DisplayName>
+	  <BlockPairName>ShieldSlantGlass</BlockPairName>
+      <Icon>Textures\textures\Shield\GUI\Shield_Glass.dds</Icon>
+      <CubeSize>Small</CubeSize>
+      <BlockTopology>TriangleMesh</BlockTopology>
+      <Size x="1" y="1" z="1" />
+      <ModelOffset x="0" y="0" z="0" />
+      <Model>Models\small\Shield_Slantnew.mwm</Model>
+      <Components>
+        <Component Subtype="Girder" Count="8" />
+		<Component Subtype="Crystalline" Count="5" />
+        <Component Subtype="SmallTube" Count="8" />
+        <Component Subtype="Construction" Count="12" />
+        <Component Subtype="BulletproofGlass" Count="40" />
+      </Components>
+      <CriticalComponent Subtype="BulletproofGlass" Index="0" />
+      <BuildProgressModels>
+        <Model BuildPercentUpperBound="0.20" File="Models/small/Small_Sloped_Small_Construction_1.mwm" />
+		<Model BuildPercentUpperBound="1.00" File="Models/small/Small_Sloped_Small_Construction_1.mwm" />
+      </BuildProgressModels>
+      <MirroringY>Z</MirroringY>
+      <MirroringZ>Y</MirroringZ>
+      <BuildTimeSeconds>24</BuildTimeSeconds>
+      <EdgeType>Light</EdgeType>
+    </Definition>
+<!-- End Azimuth Shields Region -->
+
+<!-- Start Azimuth Thrusters Region -->
+    <Definition xsi:type="MyObjectBuilder_ThrustDefinition">
+      <Id>
+        <TypeId>Thrust</TypeId>
+        <SubtypeId>AzimuthThruster</SubtypeId>
+      </Id>
+      <DisplayName>Azimuth Thruster</DisplayName>
+      <Icon>Textures/textures/Thrustersmall/GUI/thrust.dds</Icon>
+      <CubeSize>Small</CubeSize>
+      <BlockTopology>TriangleMesh</BlockTopology>
+      <Size x="1" y="1" z="2" />
+      <ModelOffset x="0" y="0" z="0" />
+      <Model>Models/Thrustersmall/SmallThruster.mwm</Model>
+      <Components>
+        <Component Subtype="SmallTube" Count="2" />
+		<Component Subtype="Crystalline" Count="2" />
+        <Component Subtype="Thrust" Count="1" />
+        <Component Subtype="AzimuthSupercharger" Count="2" />
+        <Component Subtype="Construction" Count="2" />
+        <Component Subtype="SteelPlate" Count="2" />
+      </Components>
+      <CriticalComponent Subtype="AzimuthSupercharger" Index="0" />
+      <BuildProgressModels>
+        <Model BuildPercentUpperBound="0.20" File="Models/Thrustersmall/Construction/ThrusterConstruction_1.mwm" />
+		<Model BuildPercentUpperBound="0.40" File="Models/Thrustersmall/Construction/ThrusterConstruction_2.mwm" />
+		<Model BuildPercentUpperBound="0.60" File="Models/Thrustersmall/Construction/ThrusterConstruction_3.mwm" />
+		<Model BuildPercentUpperBound="0.80" File="Models/Thrustersmall/Construction/ThrusterConstruction_4.mwm" />
+        <Model BuildPercentUpperBound="1.00" File="Models/Thrustersmall/Construction/ThrusterConstruction_5.mwm" />
+      </BuildProgressModels>
+      <BlockPairName>AzimuthThruster</BlockPairName>
+      <Center x="0" y="0" z="1" />
+      <MirroringY>Z</MirroringY>
+      <MirroringZ>Y</MirroringZ>
+      <BuildTimeSeconds>20</BuildTimeSeconds>
+      <EdgeType>Light</EdgeType>
+      <ForceMagnitude>27000</ForceMagnitude>
+      <MaxPowerConsumption>0.061</MaxPowerConsumption>
+      <MinPowerConsumption>0.000002</MinPowerConsumption>
+      <FlameDamageLengthScale>0.6</FlameDamageLengthScale>
+      <FlameDamage>0.1</FlameDamage>
+      <FlameLengthScale>2.15</FlameLengthScale>
+      <FlameIdleColor>
+        <X>1.0</X>
+        <Y>1.0</Y>
+        <Z>1.0</Z>
+        <W>0.75</W>
+      </FlameIdleColor>
+      <FlameFullColor>
+        <X>1.0</X>
+        <Y>1.0</Y>
+        <Z>1.0</Z>
+        <W>0.75</W>
+      </FlameFullColor>
+      <FlamePointMaterial>Azimuth_Thruster_EngineThrustMiddle</FlamePointMaterial>
+      <FlameLengthMaterial>Azimuth_Thruster_EngineThrustLength</FlameLengthMaterial>
+      <FlameGlareMaterial>Azimuth_Thruster_EngineThrustGlare</FlameGlareMaterial>
+      <FlameVisibilityDistance>200</FlameVisibilityDistance>
+      <FlameGlareSize>0.391</FlameGlareSize>
+      <FlameGlareQuerySize>2</FlameGlareQuerySize>
+      <PrimarySound>SmShipSmJet</PrimarySound>
+    </Definition>
+    <Definition xsi:type="MyObjectBuilder_ThrustDefinition">
+      <Id>
+        <TypeId>Thrust</TypeId>
+        <SubtypeId>AzimuthLargeShipThruster</SubtypeId>
+      </Id>
+      <DisplayName>Azimuth Thruster</DisplayName>
+      <Icon>Textures/textures/Thrustersmall/GUI/thrust.dds</Icon>
+      <CubeSize>Large</CubeSize>
+      <BlockTopology>TriangleMesh</BlockTopology>
+      <Size x="1" y="1" z="1" />
+      <ModelOffset x="0" y="0" z="0" />
+      <Model>Models/Thrustersmall/LargeShipThruster.mwm</Model>
+      <Components>
+	<Component Subtype="SteelPlate" Count="15" />
+	<Component Subtype="Crystalline" Count="10" />
+	<Component Subtype="Construction" Count="25" />
+    <Component Subtype="SmallTube" Count="4" />
+	<Component Subtype="LargeTube" Count="4" />
+	<Component Subtype="Thrust" Count="40" />
+	<Component Subtype="AzimuthSupercharger" Count="10" />
+	<Component Subtype="Construction" Count="10" />
+	<Component Subtype="SteelPlate" Count="10" />
+      </Components>
+      <CriticalComponent Subtype="AzimuthSupercharger" Index="0" />
+      <BuildProgressModels>
+        <Model BuildPercentUpperBound="0.20" File="Models/Thrustersmall/Construction/Thruster_Large_Construction_1.mwm" />
+        <Model BuildPercentUpperBound="0.40" File="Models/Thrustersmall/Construction/Thruster_Large_Construction_2.mwm" />
+        <Model BuildPercentUpperBound="0.60" File="Models/Thrustersmall/Construction/Thruster_Large_Construction_3.mwm" />
+        <Model BuildPercentUpperBound="0.80" File="Models/Thrustersmall/Construction/Thruster_Large_Construction_4.mwm" />
+		<Model BuildPercentUpperBound="1.00" File="Models/Thrustersmall/Construction/Thruster_Large_Construction_5.mwm" />
+      </BuildProgressModels>
+      <BlockPairName>AzimuthThruster</BlockPairName>
+      <Center x="0" y="0" z="0" />
+      <MirroringY>Z</MirroringY>
+      <MirroringZ>Y</MirroringZ>
+      <BuildTimeSeconds>24</BuildTimeSeconds>
+      <EdgeType>Light</EdgeType>
+      <ForceMagnitude>110000</ForceMagnitude>
+      <MaxPowerConsumption>0.52</MaxPowerConsumption>
+      <MinPowerConsumption>0.000002</MinPowerConsumption>
+      <FlameDamageLengthScale>0.6</FlameDamageLengthScale>
+      <FlameDamage>0.1</FlameDamage>
+      <FlameLengthScale>1.15</FlameLengthScale>
+      <FlameIdleColor>
+        <X>1.0</X>
+        <Y>1.0</Y>
+        <Z>1.0</Z>
+        <W>0.75</W>
+      </FlameIdleColor>
+      <FlameFullColor>
+        <X>1.0</X>
+        <Y>1.0</Y>
+        <Z>1.0</Z>
+        <W>0.75</W>
+      </FlameFullColor>
+      <FlamePointMaterial>Azimuth_Thruster_EngineThrustMiddle</FlamePointMaterial>
+      <FlameLengthMaterial>Azimuth_Thruster_EngineThrustLength</FlameLengthMaterial>
+      <FlameGlareMaterial>Azimuth_Thruster_EngineThrustGlare</FlameGlareMaterial>
+      <FlameVisibilityDistance>200</FlameVisibilityDistance>
+      <FlameGlareSize>0.391</FlameGlareSize>
+      <FlameGlareQuerySize>2</FlameGlareQuerySize>
+      <PrimarySound>SmShipSmJet</PrimarySound>
+    </Definition>
+	    <Definition xsi:type="MyObjectBuilder_ThrustDefinition">
+      <Id>
+        <TypeId>Thrust</TypeId>
+        <SubtypeId>AzimuthLargeShipThrusterBig</SubtypeId>
+      </Id>
+      <DisplayName>Azimuth Large Thruster</DisplayName>
+      <Icon>Textures/textures/Thrustersmall/GUI/thrustlarge.dds</Icon>
+      <CubeSize>Large</CubeSize>
+      <BlockTopology>TriangleMesh</BlockTopology>
+      <Size x="1" y="1" z="2" />
+      <ModelOffset x="0" y="0" z="0" />
+      <Model>Models/Thrustersmall/LargeShipThruster2.mwm</Model>
+      <Components>
+	<Component Subtype="SteelPlate" Count="15" />
+	<Component Subtype="Crystalline" Count="5" />
+	<Component Subtype="Construction" Count="35" />
+    <Component Subtype="SmallTube" Count="24" />
+	<Component Subtype="LargeTube" Count="8" />
+	<Component Subtype="Thrust" Count="85" />
+	<Component Subtype="AzimuthSupercharger" Count="24" />
+	<Component Subtype="Construction" Count="20" />
+	<Component Subtype="SteelPlate" Count="10" />
+      </Components>
+      <CriticalComponent Subtype="AzimuthSupercharger" Index="0" />
+      <BuildProgressModels>
+        <Model BuildPercentUpperBound="0.20" File="Models/Thrustersmall/Construction/ThrusterConstructionBiggest_1.mwm" />
+        <Model BuildPercentUpperBound="0.40" File="Models/Thrustersmall/Construction/ThrusterConstructionBiggest_2.mwm" />
+        <Model BuildPercentUpperBound="0.60" File="Models/Thrustersmall/Construction/ThrusterConstructionBiggest_3.mwm" />
+        <Model BuildPercentUpperBound="0.80" File="Models/Thrustersmall/Construction/ThrusterConstructionBiggest_4.mwm" />
+		<Model BuildPercentUpperBound="1.00" File="Models/Thrustersmall/Construction/ThrusterConstructionBiggest_5.mwm" />
+      </BuildProgressModels>
+      <BlockPairName>AzimuthLargeThruster</BlockPairName>
+      <Center x="0" y="0" z="1" />
+      <MirroringY>Z</MirroringY>
+      <MirroringZ>Y</MirroringZ>
+      <BuildTimeSeconds>24</BuildTimeSeconds>
+      <EdgeType>Light</EdgeType>
+      <ForceMagnitude>192500</ForceMagnitude>
+      <MaxPowerConsumption>1.05</MaxPowerConsumption>
+      <MinPowerConsumption>0.000002</MinPowerConsumption>
+      <FlameDamageLengthScale>0.6</FlameDamageLengthScale>
+      <FlameDamage>0.1</FlameDamage>
+      <FlameLengthScale>2.15</FlameLengthScale>
+      <FlameIdleColor>
+        <X>1.0</X>
+        <Y>1.0</Y>
+        <Z>1.0</Z>
+        <W>0.75</W>
+      </FlameIdleColor>
+      <FlameFullColor>
+        <X>1.0</X>
+        <Y>1.0</Y>
+        <Z>1.0</Z>
+        <W>0.75</W>
+      </FlameFullColor>
+      <FlamePointMaterial>Azimuth_Thruster_EngineThrustMiddle</FlamePointMaterial>
+      <FlameLengthMaterial>Azimuth_Thruster_EngineThrustLength</FlameLengthMaterial>
+      <FlameGlareMaterial>Azimuth_Thruster_EngineThrustGlare</FlameGlareMaterial>
+      <FlameVisibilityDistance>200</FlameVisibilityDistance>
+      <FlameGlareSize>0.391</FlameGlareSize>
+      <FlameGlareQuerySize>2</FlameGlareQuerySize>
+      <PrimarySound>SmShipSmJet</PrimarySound>
+    </Definition>
+			<Definition xsi:type="MyObjectBuilder_ThrustDefinition">
+      <Id>
+        <TypeId>Thrust</TypeId>
+        <SubtypeId>AzimuthSmallShipThrusterBig</SubtypeId>
+      </Id>
+      <DisplayName>Azimuth Large Thruster</DisplayName>
+      <Icon>Textures/textures/Thrustersmall/GUI/thrustlarge.dds</Icon>
+      <CubeSize>Small</CubeSize>
+      <BlockTopology>TriangleMesh</BlockTopology>
+      <Size x="3" y="3" z="9" />
+      <ModelOffset x="0" y="0" z="0" />
+      <Model>Models/Thrustersmall/LargeShipThrusterSmall.mwm</Model>
+      <Components>
+	<Component Subtype="SteelPlate" Count="15" />
+	<Component Subtype="Crystalline" Count="10" />
+	<Component Subtype="Construction" Count="10" />
+    <Component Subtype="SmallTube" Count="8" />
+	<Component Subtype="LargeTube" Count="4" />
+	<Component Subtype="Thrust" Count="16" />
+	<Component Subtype="AzimuthSupercharger" Count="16" />
+	<Component Subtype="Construction" Count="10" />
+	<Component Subtype="SteelPlate" Count="10" />
+      </Components>
+      <CriticalComponent Subtype="AzimuthSupercharger" Index="0" />
+      <BuildProgressModels>
+        <Model BuildPercentUpperBound="0.20" File="Models/Thrustersmall/Construction/ThrusterConstructionBigSmall_1.mwm" />
+        <Model BuildPercentUpperBound="0.40" File="Models/Thrustersmall/Construction/ThrusterConstructionBigSmall_2.mwm" />
+        <Model BuildPercentUpperBound="0.80" File="Models/Thrustersmall/Construction/ThrusterConstructionBigSmall_3.mwm" />
+        <Model BuildPercentUpperBound="1.00" File="Models/Thrustersmall/Construction/ThrusterConstructionBigSmall_4.mwm" />
+      </BuildProgressModels>
+      <BlockPairName>AzimuthLargeThruster</BlockPairName>
+      <Center x="1" y="0" z="8" />
+      <MirroringY>Z</MirroringY>
+      <MirroringZ>Y</MirroringZ>
+      <BuildTimeSeconds>34</BuildTimeSeconds>
+      <EdgeType>Light</EdgeType>
+      <ForceMagnitude>570000</ForceMagnitude>
+      <MaxPowerConsumption>1.781</MaxPowerConsumption>
+      <MinPowerConsumption>0.000002</MinPowerConsumption>
+      <FlameDamageLengthScale>0.6</FlameDamageLengthScale>
+      <FlameDamage>0.1</FlameDamage>
+      <FlameLengthScale>3.15</FlameLengthScale>
+      <FlameIdleColor>
+        <X>1.0</X>
+        <Y>1.0</Y>
+        <Z>1.0</Z>
+        <W>0.75</W>
+      </FlameIdleColor>
+      <FlameFullColor>
+        <X>1.0</X>
+        <Y>1.0</Y>
+        <Z>1.0</Z>
+        <W>0.75</W>
+      </FlameFullColor>
+      <FlamePointMaterial>Azimuth_Thruster_EngineThrustMiddle</FlamePointMaterial>
+      <FlameLengthMaterial>Azimuth_Thruster_EngineThrustLength</FlameLengthMaterial>
+      <FlameGlareMaterial>Azimuth_Thruster_EngineThrustGlare</FlameGlareMaterial>
+      <FlameVisibilityDistance>200</FlameVisibilityDistance>
+      <FlameGlareSize>0.391</FlameGlareSize>
+      <FlameGlareQuerySize>2</FlameGlareQuerySize>
+      <PrimarySound>SmShipSmJet</PrimarySound>
+    </Definition>
+		    <Definition xsi:type="MyObjectBuilder_ThrustDefinition">
+      <Id>
+        <TypeId>Thrust</TypeId>
+        <SubtypeId>AzimuthLargeShipThrusterSloped</SubtypeId>
+      </Id>
+      <DisplayName>Azimuth Thruster Sloped</DisplayName>
+      <Icon>Textures/textures/Thrustersmall/GUI/Thrust_Sloped.dds</Icon>
+      <CubeSize>Large</CubeSize>
+      <BlockTopology>TriangleMesh</BlockTopology>
+      <Size x="1" y="1" z="2" />
+      <ModelOffset x="0" y="0" z="0" />
+      <Model>Models/Thrustersmall/Sloped_Thruster.mwm</Model>
+      <Components>
+	<Component Subtype="SteelPlate" Count="10" />
+	<Component Subtype="Crystalline" Count="10" />
+	<Component Subtype="Construction" Count="20" />
+    <Component Subtype="SmallTube" Count="18" />
+	<Component Subtype="LargeTube" Count="6" />
+	<Component Subtype="Thrust" Count="75" />
+	<Component Subtype="AzimuthSupercharger" Count="16" />
+	<Component Subtype="Construction" Count="40" />
+	<Component Subtype="SteelPlate" Count="20" />
+      </Components>
+      <CriticalComponent Subtype="AzimuthSupercharger" Index="0" />
+      <BuildProgressModels>
+        <Model BuildPercentUpperBound="0.20" File="Models/Thrustersmall/Construction/Large_Sloped_Construction_1.mwm" />
+        <Model BuildPercentUpperBound="0.60" File="Models/Thrustersmall/Construction/Large_Sloped_Construction_1.mwm" />
+		<Model BuildPercentUpperBound="1.00" File="Models/Thrustersmall/Sloped_Thruster.mwm" />
+      </BuildProgressModels>
+      <BlockPairName>AzimuthThrusterSloped</BlockPairName>
+      <Center x="0" y="0" z="1" />
+      <MirroringY>Z</MirroringY>
+      <MirroringZ>Y</MirroringZ>
+      <BuildTimeSeconds>24</BuildTimeSeconds>
+      <EdgeType>Light</EdgeType>
+      <ForceMagnitude>180000</ForceMagnitude>
+      <MaxPowerConsumption>1.033</MaxPowerConsumption>
+      <MinPowerConsumption>0.000002</MinPowerConsumption>
+      <FlameDamageLengthScale>0.6</FlameDamageLengthScale>
+      <FlameDamage>0.1</FlameDamage>
+      <FlameLengthScale>1.15</FlameLengthScale>
+      <FlameIdleColor>
+        <X>1.0</X>
+        <Y>1.0</Y>
+        <Z>1.0</Z>
+        <W>0.75</W>
+      </FlameIdleColor>
+      <FlameFullColor>
+        <X>1.0</X>
+        <Y>1.0</Y>
+        <Z>1.0</Z>
+        <W>0.75</W>
+      </FlameFullColor>
+      <FlamePointMaterial>Azimuth_Thruster_EngineThrustMiddle</FlamePointMaterial>
+      <FlameLengthMaterial>Azimuth_Thruster_EngineThrustLength</FlameLengthMaterial>
+      <FlameGlareMaterial>Azimuth_Thruster_EngineThrustGlare</FlameGlareMaterial>
+      <FlameVisibilityDistance>200</FlameVisibilityDistance>
+      <FlameGlareSize>0.391</FlameGlareSize>
+      <FlameGlareQuerySize>2</FlameGlareQuerySize>
+      <PrimarySound>SmShipSmJet</PrimarySound>
+    </Definition>
+    <Definition xsi:type="MyObjectBuilder_ThrustDefinition">
+      <Id>
+        <TypeId>Thrust</TypeId>
+        <SubtypeId>AzimuthThrusterSloped</SubtypeId>
+      </Id>
+      <DisplayName>Azimuth Thruster Sloped</DisplayName>
+      <Icon>Textures/textures/Thrustersmall/GUI/Thrust_Sloped.dds</Icon>
+      <CubeSize>Small</CubeSize>
+      <BlockTopology>TriangleMesh</BlockTopology>
+      <Size x="1" y="1" z="2" />
+      <ModelOffset x="0" y="0" z="0" />
+      <Model>Models/Thrustersmall/Small_Sloped_Thruster.mwm</Model>
+      <Components>
+	<Component Subtype="SteelPlate" Count="1" />
+	<Component Subtype="Crystalline" Count="1" />
+	<Component Subtype="Construction" Count="1" />
+    <Component Subtype="SmallTube" Count="2" />
+	<Component Subtype="Thrust" Count="1" />
+	<Component Subtype="AzimuthSupercharger" Count="1" />
+	<Component Subtype="Construction" Count="1" />
+	<Component Subtype="SteelPlate" Count="1" />
+      </Components>
+      <CriticalComponent Subtype="AzimuthSupercharger" Index="0" />
+      <BuildProgressModels>
+        <Model BuildPercentUpperBound="0.20" File="Models/Thrustersmall/Construction/ThrusterConstruction_1.mwm" />
+		<Model BuildPercentUpperBound="0.40" File="Models/Thrustersmall/Construction/ThrusterConstruction_2.mwm" />
+        <Model BuildPercentUpperBound="1.00" File="Models/Thrustersmall/Small_Sloped_Thruster.mwm" />
+      </BuildProgressModels>
+      <BlockPairName>AzimuthThrusterSloped</BlockPairName>
+      <Center x="0" y="0" z="1" />
+      <MirroringY>Z</MirroringY>
+      <MirroringZ>Y</MirroringZ>
+      <BuildTimeSeconds>12</BuildTimeSeconds>
+      <EdgeType>Light</EdgeType>
+      <ForceMagnitude>26000</ForceMagnitude>
+      <MaxPowerConsumption>0.059</MaxPowerConsumption>
+      <MinPowerConsumption>0.000002</MinPowerConsumption>
+      <FlameDamageLengthScale>0.6</FlameDamageLengthScale>
+      <FlameDamage>0.1</FlameDamage>
+      <FlameLengthScale>2.15</FlameLengthScale>
+      <FlameIdleColor>
+        <X>1.0</X>
+        <Y>1.0</Y>
+        <Z>1.0</Z>
+        <W>0.75</W>
+      </FlameIdleColor>
+      <FlameFullColor>
+        <X>1.0</X>
+        <Y>1.0</Y>
+        <Z>1.0</Z>
+        <W>0.75</W>
+      </FlameFullColor>
+      <FlamePointMaterial>Azimuth_Thruster_EngineThrustMiddle</FlamePointMaterial>
+      <FlameLengthMaterial>Azimuth_Thruster_EngineThrustLength</FlameLengthMaterial>
+      <FlameGlareMaterial>Azimuth_Thruster_EngineThrustGlare</FlameGlareMaterial>
+      <FlameVisibilityDistance>200</FlameVisibilityDistance>
+      <FlameGlareSize>0.391</FlameGlareSize>
+      <FlameGlareQuerySize>2</FlameGlareQuerySize>
+      <PrimarySound>SmShipSmJet</PrimarySound>
+    </Definition>
+	  <Definition xsi:type="MyObjectBuilder_ThrustDefinition">
+        <Id>
+        <TypeId>Thrust</TypeId>
+        <SubtypeId>AzimuthLargeThrusterFlat</SubtypeId>
+      </Id>
+      <DisplayName>Azimuth Large Thruster Flat</DisplayName>
+      <Icon>Textures/textures/Thrustersmall/GUI/flat.dds</Icon>
+      <CubeSize>Large</CubeSize>
+      <BlockTopology>TriangleMesh</BlockTopology>
+      <Size x="1" y="1" z="1" />
+      <ModelOffset x="0" y="0" z="0" />
+      <Model>Models/Thrustersmall/Large_Thruster_Flat.mwm</Model>
+      <Components>
+	<Component Subtype="SteelPlate" Count="15" />
+	<Component Subtype="Crystalline" Count="15" />
+	<Component Subtype="Construction" Count="25" />
+    <Component Subtype="SmallTube" Count="4" />
+	<Component Subtype="LargeTube" Count="4" />
+	<Component Subtype="Thrust" Count="40" />
+	<Component Subtype="AzimuthSupercharger" Count="10" />
+	<Component Subtype="Construction" Count="10" />
+	<Component Subtype="SteelPlate" Count="10" />
+      </Components>
+      <CriticalComponent Subtype="AzimuthSupercharger" Index="0" />
+      <BuildProgressModels>
+        <Model BuildPercentUpperBound="0.40" File="Models/Thrustersmall/Construction/Small_Flat_Large_Construction_1.mwm" />
+		<Model BuildPercentUpperBound="1.00" File="Models/Thrustersmall/Construction/Small_Flat_Large_Construction_1.mwm" />
+      </BuildProgressModels>
+      <BlockPairName>AzimuthThrusterFlat</BlockPairName>
+      <Center x="0" y="0" z="0" />
+      <MirroringY>Z</MirroringY>
+      <MirroringZ>Y</MirroringZ>
+      <BuildTimeSeconds>24</BuildTimeSeconds>
+      <EdgeType>Light</EdgeType>
+      <ForceMagnitude>100000</ForceMagnitude>
+      <MaxPowerConsumption>0.50</MaxPowerConsumption>
+      <MinPowerConsumption>0.000002</MinPowerConsumption>
+      <FlameDamageLengthScale>0.6</FlameDamageLengthScale>
+      <FlameDamage>0.1</FlameDamage>
+      <FlameLengthScale>1.15</FlameLengthScale>
+      <FlameIdleColor>
+        <X>1.0</X>
+        <Y>1.0</Y>
+        <Z>1.0</Z>
+        <W>0.75</W>
+      </FlameIdleColor>
+      <FlameFullColor>
+        <X>1.0</X>
+        <Y>1.0</Y>
+        <Z>1.0</Z>
+        <W>0.75</W>
+      </FlameFullColor>
+      <FlamePointMaterial>Azimuth_Thruster_EngineThrustMiddle</FlamePointMaterial>
+      <FlameLengthMaterial>Azimuth_Thruster_EngineThrustLength</FlameLengthMaterial>
+      <FlameGlareMaterial>Azimuth_Thruster_EngineThrustGlare</FlameGlareMaterial>
+      <FlameVisibilityDistance>200</FlameVisibilityDistance>
+      <FlameGlareSize>0.391</FlameGlareSize>
+      <FlameGlareQuerySize>2</FlameGlareQuerySize>
+      <PrimarySound>SmShipSmJet</PrimarySound>
+    </Definition>
+		  <Definition xsi:type="MyObjectBuilder_ThrustDefinition">
+        <Id>
+        <TypeId>Thrust</TypeId>
+        <SubtypeId>AzimuthThrusterFlat</SubtypeId>
+      </Id>
+      <DisplayName>Azimuth Thruster Small Flat</DisplayName>
+      <Icon>Textures/textures/Thrustersmall/GUI/flat.dds</Icon>
+      <CubeSize>Small</CubeSize>
+      <BlockTopology>TriangleMesh</BlockTopology>
+      <Size x="1" y="1" z="1" />
+      <ModelOffset x="0" y="0" z="0" />
+      <Model>Models/Thrustersmall/Small_Thruster_Flat.mwm</Model>
+      <Components>
+    <Component Subtype="SmallTube" Count="1" />
+	<Component Subtype="Crystalline" Count="1" />
+	<Component Subtype="Thrust" Count="1" />
+	<Component Subtype="AzimuthSupercharger" Count="1" />
+	<Component Subtype="Construction" Count="1" />
+	<Component Subtype="SteelPlate" Count="1" />
+      </Components>
+      <CriticalComponent Subtype="AzimuthSupercharger" Index="0" />
+      <BuildProgressModels>
+        <Model BuildPercentUpperBound="0.40" File="Models/Thrustersmall/Construction/Small_Thruster_Flat_Construction.mwm" />
+		<Model BuildPercentUpperBound="1.00" File="Models/Thrustersmall/Construction/Small_Thruster_Flat_Construction.mwm" />
+      </BuildProgressModels>
+      <BlockPairName>AzimuthThrusterFlat</BlockPairName>
+      <Center x="0" y="0" z="0" />
+      <MirroringY>Z</MirroringY>
+      <MirroringZ>Y</MirroringZ>
+      <BuildTimeSeconds>18</BuildTimeSeconds>
+      <EdgeType>Light</EdgeType>
+      <ForceMagnitude>13000</ForceMagnitude>
+      <MaxPowerConsumption>0.028</MaxPowerConsumption>
+      <MinPowerConsumption>0.000002</MinPowerConsumption>
+      <FlameDamageLengthScale>0.6</FlameDamageLengthScale>
+      <FlameDamage>0.1</FlameDamage>
+      <FlameLengthScale>1.15</FlameLengthScale>
+      <FlameIdleColor>
+        <X>1.0</X>
+        <Y>1.0</Y>
+        <Z>1.0</Z>
+        <W>0.75</W>
+      </FlameIdleColor>
+      <FlameFullColor>
+        <X>1.0</X>
+        <Y>1.0</Y>
+        <Z>1.0</Z>
+        <W>0.75</W>
+      </FlameFullColor>
+      <FlamePointMaterial>Azimuth_Thruster_EngineThrustMiddle</FlamePointMaterial>
+      <FlameLengthMaterial>Azimuth_Thruster_EngineThrustLength</FlameLengthMaterial>
+      <FlameGlareMaterial>Azimuth_Thruster_EngineThrustGlare</FlameGlareMaterial>
+      <FlameVisibilityDistance>200</FlameVisibilityDistance>
+      <FlameGlareSize>0.391</FlameGlareSize>
+      <FlameGlareQuerySize>2</FlameGlareQuerySize>
+      <PrimarySound>SmShipSmJet</PrimarySound>
+    </Definition>
+	  <Definition xsi:type="MyObjectBuilder_ThrustDefinition">
+        <Id>
+        <TypeId>Thrust</TypeId>
+        <SubtypeId>AzimuthLargeThrusterAngled</SubtypeId>
+      </Id>
+      <DisplayName>Azimuth Thruster Large Angled</DisplayName>
+      <Icon>Textures/textures/Thrustersmall/GUI/Angle.dds</Icon>
+      <CubeSize>Large</CubeSize>
+      <BlockTopology>TriangleMesh</BlockTopology>
+      <Size x="1" y="1" z="1" />
+      <ModelOffset x="0" y="0" z="0" />
+      <Model>Models/Thrustersmall/Large_Angle_Thruster.mwm</Model>
+      <Components>
+	<Component Subtype="SteelPlate" Count="15" />
+	<Component Subtype="Crystalline" Count="15" />
+	<Component Subtype="Construction" Count="25" />
+    <Component Subtype="SmallTube" Count="4" />
+	<Component Subtype="LargeTube" Count="4" />
+	<Component Subtype="Thrust" Count="40" />
+	<Component Subtype="AzimuthSupercharger" Count="10" />
+	<Component Subtype="Construction" Count="10" />
+	<Component Subtype="SteelPlate" Count="10" />
+      </Components>
+      <CriticalComponent Subtype="AzimuthSupercharger" Index="0" />
+      <BuildProgressModels>
+        <Model BuildPercentUpperBound="0.20" File="Models/Thrustersmall/Construction/Small_Sloped_Large_Construction_1.mwm" />
+		<Model BuildPercentUpperBound="0.60" File="Models/Thrustersmall/Construction/Small_Sloped_Large_Construction_1.mwm" />
+		<Model BuildPercentUpperBound="1.00" File="Models/Thrustersmall/Construction/Small_Sloped_Large_Construction_1.mwm" />
+      </BuildProgressModels>
+      <BlockPairName>AzimuthThrusterAngled</BlockPairName>
+      <Center x="0" y="0" z="0" />
+      <MirroringY>Z</MirroringY>
+      <MirroringZ>Y</MirroringZ>
+      <BuildTimeSeconds>24</BuildTimeSeconds>
+      <EdgeType>Light</EdgeType>
+      <ForceMagnitude>100000</ForceMagnitude>
+      <MaxPowerConsumption>0.50</MaxPowerConsumption>
+      <MinPowerConsumption>0.000002</MinPowerConsumption>
+      <FlameDamageLengthScale>0.6</FlameDamageLengthScale>
+      <FlameDamage>0.1</FlameDamage>
+      <FlameLengthScale>1.15</FlameLengthScale>
+      <FlameIdleColor>
+        <X>1.0</X>
+        <Y>1.0</Y>
+        <Z>1.0</Z>
+        <W>0.75</W>
+      </FlameIdleColor>
+      <FlameFullColor>
+        <X>1.0</X>
+        <Y>1.0</Y>
+        <Z>1.0</Z>
+        <W>0.75</W>
+      </FlameFullColor>
+      <FlamePointMaterial>Azimuth_Thruster_EngineThrustMiddle</FlamePointMaterial>
+      <FlameLengthMaterial>Azimuth_Thruster_EngineThrustLength</FlameLengthMaterial>
+      <FlameGlareMaterial>Azimuth_Thruster_EngineThrustGlare</FlameGlareMaterial>
+      <FlameVisibilityDistance>200</FlameVisibilityDistance>
+      <FlameGlareSize>0.391</FlameGlareSize>
+      <FlameGlareQuerySize>2</FlameGlareQuerySize>
+      <PrimarySound>SmShipSmJet</PrimarySound>
+    </Definition>
+	  <Definition xsi:type="MyObjectBuilder_ThrustDefinition">
+        <Id>
+        <TypeId>Thrust</TypeId>
+        <SubtypeId>AzimuthThrusterAngled</SubtypeId>
+      </Id>
+      <DisplayName>Azimuth Thruster Small Angled</DisplayName>
+      <Icon>Textures/textures/Thrustersmall/GUI/Angle.dds</Icon>
+      <CubeSize>Small</CubeSize>
+      <BlockTopology>TriangleMesh</BlockTopology>
+      <Size x="1" y="1" z="1" />
+      <ModelOffset x="0" y="0" z="0" />
+      <Model>Models/Thrustersmall/Small_Sloped_Small_Thruster.mwm</Model>
+      <Components>
+    <Component Subtype="SmallTube" Count="1" />
+	<Component Subtype="Crystalline" Count="1" />
+	<Component Subtype="Thrust" Count="1" />
+	<Component Subtype="AzimuthSupercharger" Count="1" />
+	<Component Subtype="Construction" Count="1" />
+	<Component Subtype="SteelPlate" Count="1" />
+      </Components>
+      <CriticalComponent Subtype="AzimuthSupercharger" Index="0" />
+      <BuildProgressModels>
+        <Model BuildPercentUpperBound="0.20" File="Models/Thrustersmall/Construction/Small_Sloped_Small_Construction_1.mwm" />
+		<Model BuildPercentUpperBound="0.60" File="Models/Thrustersmall/Construction/Small_Sloped_Small_Construction_1.mwm" />
+		<Model BuildPercentUpperBound="1.00" File="Models/Thrustersmall/Construction/Small_Sloped_Small_Construction_1.mwm" />
+      </BuildProgressModels>
+      <BlockPairName>AzimuthThrusterAngled</BlockPairName>
+      <Center x="0" y="0" z="0" />
+      <MirroringY>Z</MirroringY>
+      <MirroringZ>Y</MirroringZ>
+      <BuildTimeSeconds>18</BuildTimeSeconds>
+      <EdgeType>Light</EdgeType>
+      <ForceMagnitude>13000</ForceMagnitude>
+      <MaxPowerConsumption>0.028</MaxPowerConsumption>
+      <MinPowerConsumption>0.000002</MinPowerConsumption>
+      <FlameDamageLengthScale>0.6</FlameDamageLengthScale>
+      <FlameDamage>0.1</FlameDamage>
+      <FlameLengthScale>1.15</FlameLengthScale>
+      <FlameIdleColor>
+        <X>1.0</X>
+        <Y>1.0</Y>
+        <Z>1.0</Z>
+        <W>0.75</W>
+      </FlameIdleColor>
+      <FlameFullColor>
+        <X>1.0</X>
+        <Y>1.0</Y>
+        <Z>1.0</Z>
+        <W>0.75</W>
+      </FlameFullColor>
+      <FlamePointMaterial>Azimuth_Thruster_EngineThrustMiddle</FlamePointMaterial>
+      <FlameLengthMaterial>Azimuth_Thruster_EngineThrustLength</FlameLengthMaterial>
+      <FlameGlareMaterial>Azimuth_Thruster_EngineThrustGlare</FlameGlareMaterial>
+      <FlameVisibilityDistance>200</FlameVisibilityDistance>
+      <FlameGlareSize>0.391</FlameGlareSize>
+      <FlameGlareQuerySize>2</FlameGlareQuerySize>
+      <PrimarySound>SmShipSmJet</PrimarySound>
+    </Definition>
+<!-- End Azimuth Thrusters Region -->
+
+<!-- Start Azimuth Weapons Region -->
+<Definition xsi:type="MyObjectBuilder_MissileLauncherDefinition">
+      <Id>
+        <TypeId>SmallMissileLauncher</TypeId>
+        <SubtypeId>AzimuthLauncher</SubtypeId>
+      </Id>
+      <DisplayName>Azimuth Launcher</DisplayName>
+      <Icon>Textures/textures/Launcher/GUI/Gun.dds</Icon>
+      <CubeSize>Small</CubeSize>
+      <BlockTopology>TriangleMesh</BlockTopology>
+      <Size x="3" y="1" z="7" />
+      <ModelOffset x="0" y="0" z="0" />
+      <Model>Models/small/Gun.mwm</Model>
+      <Components>
+        <Component Subtype="SteelPlate" Count="3" />
+		<Component Subtype="Crystalline" Count="3" />
+        <Component Subtype="Construction" Count="2" />
+        <Component Subtype="LargeTube" Count="3" />
+        <Component Subtype="Motor" Count="1" />
+        <Component Subtype="Computer" Count="2" />
+        <Component Subtype="SteelPlate" Count="9" />
+      </Components>
+      <CriticalComponent Subtype="Computer" Index="0" />
+      <BuildProgressModels>
+        <Model BuildPercentUpperBound="0.50" File="Models/small/Gun.mwm" />
+        <Model BuildPercentUpperBound="1.00" File="Models/small/Gun.mwm" />
+      </BuildProgressModels>
+      <BlockPairName>AzimuthLauncher</BlockPairName>
+      <Center x="1" y="0" z="2" />
+      <MirroringY>Z</MirroringY>
+      <MirroringZ>Y</MirroringZ>
+      <BuildTimeSeconds>22</BuildTimeSeconds>
+      <EdgeType>Light</EdgeType>
+	  <ProjectileMissile>Models\Weapons\Projectile_Missile.mwm</ProjectileMissile>
+    </Definition>
+    <Definition>
+      <Id>
+        <TypeId>Conveyor</TypeId>
+        <SubtypeId>AzimuthConveyor</SubtypeId>
+      </Id>
+      <DisplayName>Azimuth Launcher Conveyor</DisplayName>
+      <Icon>Textures/textures/Launcher/GUI/Conveyor.dds</Icon>
+      <CubeSize>Small</CubeSize>
+      <BlockTopology>TriangleMesh</BlockTopology>
+      <Size x="3" y="2" z="3" />
+      <ModelOffset x="0" y="0" z="0" />
+      <Model>Models/small/Gun_Conveyor.mwm</Model>
+      <Components>
+        <Component Subtype="SteelPlate" Count="8" />
+		<Component Subtype="Crystalline" Count="5" />
+        <Component Subtype="Construction" Count="30" />
+        <Component Subtype="SmallTube" Count="12" />
+        <Component Subtype="Motor" Count="6" />
+      </Components>
+      <CriticalComponent Subtype="SmallTube" Index="0" />
+      <BuildProgressModels>
+        <Model BuildPercentUpperBound="0.50" File="Models/small/Gun_Conveyor.mwm" />
+        <Model BuildPercentUpperBound="1.00" File="Models/small/Gun_Conveyor.mwm" />
+      </BuildProgressModels>
+      <BlockPairName>AzimuthConveyor</BlockPairName>
+      <EdgeType>Light</EdgeType>
+      <BuildTimeSeconds>12</BuildTimeSeconds>
+    </Definition>
+    <Definition>
+      <Id>
+        <TypeId>SmallGatlingGun</TypeId>
+        <SubtypeId>AzimuthGatlingGun</SubtypeId>
+      </Id>
+      <DisplayName>Azimuth Gatling Gun</DisplayName>
+      <Icon>Textures/textures/Launcher/GUI/Gatling.dds</Icon>
+      <CubeSize>Small</CubeSize>
+      <BlockTopology>TriangleMesh</BlockTopology>
+      <Size x="1" y="1" z="5" />
+      <ModelOffset x="0" y="0" z="0" />
+      <Model>Models/small/GatlingGun.mwm</Model>
+      <Components>
+        <Component Subtype="SteelPlate" Count="1" />
+		<Component Subtype="Crystalline" Count="1" />
+        <Component Subtype="Construction" Count="1" />
+        <Component Subtype="SmallTube" Count="6" />
+        <Component Subtype="Motor" Count="1" />
+        <Component Subtype="Computer" Count="2" />
+        <Component Subtype="SteelPlate" Count="5" />
+      </Components>
+      <CriticalComponent Subtype="Computer" Index="0" />
+      <BuildProgressModels>
+        <Model BuildPercentUpperBound="0.50" File="Models/small/Gatling_Construction_1.mwm" />
+        <Model BuildPercentUpperBound="1.00" File="Models/small/Gatling_Construction_1.mwm" />
+      </BuildProgressModels>
+      <BlockPairName>AzimuthGatlingGun</BlockPairName>
+      <Center x="0" y="0" z="4" />
+      <MirroringY>Z</MirroringY>
+      <MirroringZ>Y</MirroringZ>
+      <BuildTimeSeconds>13</BuildTimeSeconds>
+      <EdgeType>Light</EdgeType>
+    </Definition>
+    <Definition>
+      <Id>
+        <TypeId>SmallGatlingGun</TypeId>
+        <SubtypeId>AzimuthGatlingGunSmall</SubtypeId>
+      </Id>
+      <DisplayName>Azimuth Gatling Small</DisplayName>
+      <Icon>Textures/textures/Launcher/GUI/Tinygatling.dds</Icon>
+      <CubeSize>Small</CubeSize>
+      <BlockTopology>TriangleMesh</BlockTopology>
+      <Size x="1" y="1" z="2" />
+      <ModelOffset x="0" y="0" z="0" />
+      <Model>Models/small/GatlingSmall/GatlingGunSmall.mwm</Model>
+      <Components>
+        <Component Subtype="SteelPlate" Count="1" />
+		<Component Subtype="Crystalline" Count="1" />
+        <Component Subtype="Construction" Count="1" />
+        <Component Subtype="SmallTube" Count="3" />
+        <Component Subtype="Motor" Count="1" />
+        <Component Subtype="Computer" Count="2" />
+        <Component Subtype="SteelPlate" Count="2" />
+      </Components>
+      <CriticalComponent Subtype="Computer" Index="0" />
+      <BuildProgressModels>
+        <Model BuildPercentUpperBound="0.50" File="Models/small/GatlingSmall/GatlingSmall_Construction_1.mwm" />
+        <Model BuildPercentUpperBound="1.00" File="Models/small/GatlingSmall/GatlingSmall_Construction_1.mwm" />
+      </BuildProgressModels>
+      <BlockPairName>AzimuthGatlingSmall</BlockPairName>
+      <Center x="0" y="0" z="1" />
+      <MirroringY>Z</MirroringY>
+      <MirroringZ>Y</MirroringZ>
+      <BuildTimeSeconds>10</BuildTimeSeconds>
+      <EdgeType>Light</EdgeType>
+    </Definition>
+<!-- Start Azimuth Weapons Region -->
+
+<!-- Start Azimuth Antenna and Ore Detector Region -->
+  <Definition xsi:type="MyObjectBuilder_RefineryDefinition">
+      <Id>
+        <TypeId>RadioAntenna</TypeId>
+        <SubtypeId>AntennaLarge</SubtypeId>
+      </Id>
+      <DisplayName>Antenna Large</DisplayName>
+      <Icon>Textures/textures/AntennaMod/GUI/LargeAntenna.dds</Icon>
+      <CubeSize>Small</CubeSize>
+      <BlockTopology>TriangleMesh</BlockTopology>
+      <Size x="1" y="3" z="1" />
+      <ModelOffset x="0" y="0" z="0" />
+      <Model>Models/AntennaSmall/LargeAntenna.mwm</Model>
+      <Components>
+        <Component Subtype="SmallTube" Count="1" />
+		<Component Subtype="Crystalline" Count="1" />
+        <Component Subtype="Computer" Count="3" />
+        <Component Subtype="Construction" Count="2" />
+      </Components>
+      <CriticalComponent Subtype="Computer" Index="0" />
+      <BuildProgressModels>
+        <Model BuildPercentUpperBound="0.50" File="Models/AntennaSmall/LargeAntennaConstruction_1.mwm" />
+        <Model BuildPercentUpperBound="1.00" File="Models/AntennaSmall/LargeAntennaConstruction_1.mwm" />
+      </BuildProgressModels>
+      <BlockPairName>AntennaLarge</BlockPairName>
+      <MirroringY>Z</MirroringY>
+      <MirroringZ>Y</MirroringZ>
+      <EdgeType>Light</EdgeType>
+      <BuildTimeSeconds>18</BuildTimeSeconds>
+    </Definition>
+  <Definition>
+      <Id>
+        <TypeId>RadioAntenna</TypeId>
+        <SubtypeId>AntennaCustom</SubtypeId>
+      </Id>
+      <DisplayName>Small Antenna</DisplayName>
+      <Icon>Textures/textures/AntennaMod/GUI/SmallAntenna.dds</Icon>
+      <CubeSize>Small</CubeSize>
+      <BlockTopology>TriangleMesh</BlockTopology>
+      <Size x="1" y="1" z="1" />
+      <ModelOffset x="0" y="0" z="0" />
+      <Model>Models/AntennaSmall/AntennaSmall.mwm</Model>
+      <Components>
+        <Component Subtype="SmallTube" Count="1" />
+		<Component Subtype="Crystalline" Count="1" />
+        <Component Subtype="Computer" Count="2" />
+        <Component Subtype="Construction" Count="1" />
+      </Components>
+      <CriticalComponent Subtype="Computer" Index="0" />
+      <BuildProgressModels>
+        <Model BuildPercentUpperBound="0.50" File="Models/AntennaSmall/AntennaSmallConstruction_1.mwm" />
+        <Model BuildPercentUpperBound="1.00" File="Models/AntennaSmall/AntennaSmallConstruction_1.mwm" />
+      </BuildProgressModels>
+      <BlockPairName>SmallAntenna</BlockPairName>
+      <MirroringY>Z</MirroringY>
+      <MirroringZ>Y</MirroringZ>
+      <EdgeType>Light</EdgeType>
+      <BuildTimeSeconds>15</BuildTimeSeconds>
+    </Definition>
+  <Definition xsi:type="MyObjectBuilder_OreDetectorDefinition">
+      <Id>
+        <TypeId>OreDetector</TypeId>
+        <SubtypeId>SmallOreDetector</SubtypeId>
+      </Id>
+      <DisplayName>Small Ore Detector</DisplayName>
+      <Icon>Textures/textures/AntennaMod/GUI/SmallOreDetector.dds</Icon>
+      <CubeSize>Small</CubeSize>
+      <BlockTopology>TriangleMesh</BlockTopology>
+      <Size x="1" y="1" z="1" />
+      <ModelOffset x="0" y="0" z="0" />
+      <Model>Models/AntennaSmall/OreDetectorSmall.mwm</Model>
+      <Components>
+        <Component Subtype="Construction" Count="2" />
+		<Component Subtype="Crystalline" Count="1" />
+        <Component Subtype="Motor" Count="1" />
+        <Component Subtype="Computer" Count="1" />
+        <Component Subtype="Detector" Count="1" />
+        <Component Subtype="SteelPlate" Count="2" />
+      </Components>
+      <CriticalComponent Subtype="Detector" Index="0" />
+      <BuildProgressModels>
+        <Model BuildPercentUpperBound="0.50" File="Models/AntennaSmall/OreDetectorConstruction_1.mwm" />
+        <Model BuildPercentUpperBound="1.00" File="Models/AntennaSmall/OreDetectorConstruction_1.mwm" />
+      </BuildProgressModels>
+      <BlockPairName>>SmallOreDetector</BlockPairName>
+      <MirroringY>Z</MirroringY>
+      <MirroringZ>Y</MirroringZ>
+      <EdgeType>Light</EdgeType>
+      <BuildTimeSeconds>18</BuildTimeSeconds>
+      <MaximumRange>50</MaximumRange>
+    </Definition>
+<!-- End Azimuth Antenna and Ore Detector Region -->
+
+<!-- Start Azimuth Tiny Drill Region -->
+    <Definition xsi:type="MyObjectBuilder_ShipDrillDefinition">
+      <Id>
+        <TypeId>Drill</TypeId>
+        <SubtypeId>SmallDrill</SubtypeId>
+      </Id>
+      <DisplayName>Tiny Drill</DisplayName>
+      <Icon>Textures\GUI\Icons\Drill.dds</Icon>
+      <CubeSize>Small</CubeSize>
+      <BlockTopology>TriangleMesh</BlockTopology>
+      <Size x="1" y="1" z="3" />
+      <ModelOffset x="0" y="0" z="0" />
+      <Model>Models\Small\driller.mwm</Model>
+      <UseModelIntersection>true</UseModelIntersection>
+      <Components>
+        <Component Subtype="SteelPlate" Count="30" />
+		<Component Subtype="Crystalline" Count="20" />
+        <Component Subtype="Construction" Count="8" />
+        <Component Subtype="SmallTube" Count="8" />
+        <Component Subtype="LargeTube" Count="4" />
+        <Component Subtype="Motor" Count="1" />
+        <Component Subtype="Computer" Count="1" />
+        <Component Subtype="SteelPlate" Count="18" />
+      </Components>
+      <CriticalComponent Subtype="Motor" Index="0" />
+      <MountPoints>
+        <MountPoint Side="Back" StartX="0" StartY="0" EndX="1" EndY="1" />
+        <MountPoint Side="Top" StartX="0" StartY="0" EndX="1" EndY="1" />
+        <MountPoint Side="Bottom" StartX="0" StartY="2" EndX="1" EndY="3" />
+        <MountPoint Side="Right" StartX="0" StartY="0" EndX="1" EndY="1" />
+        <MountPoint Side="Left" StartX="2" StartY="0" EndX="3" EndY="1" />
+      </MountPoints>
+      <BuildProgressModels>
+        <Model BuildPercentUpperBound="0.33" File="Models/Small/Construction/driller_Construction_1.mwm" />
+        <Model BuildPercentUpperBound="0.66" File="Models/Small/Construction/driller_Construction_2.mwm" />
+        <Model BuildPercentUpperBound="1.00" File="Models/Small/Construction/driller_Construction_3.mwm" />
+      </BuildProgressModels>
+      <BlockPairName>TinyDrill</BlockPairName>
+      <MirroringY>Z</MirroringY>
+      <MirroringZ>Y</MirroringZ>
+      <EdgeType>Light</EdgeType>
+      <BuildTimeSeconds>24</BuildTimeSeconds>
+      <Center x="0" y="0" z="2" />
+      <SensorRadius>0.8</SensorRadius>
+      <SensorOffset>0.8</SensorOffset>
+      <DeformationRatio>0.7</DeformationRatio>
+    </Definition>
+<!-- End Azimuth Tiny Drill Region -->
+
+<!-- Start Azimuth V8 Engines and Battieries Region -->
+    <Definition xsi:type="MyObjectBuilder_ReactorDefinition">
+      <Id>
+        <TypeId>Reactor</TypeId>
+        <SubtypeId>V8Engine</SubtypeId>
+      </Id>
+      <DisplayName>V8 Engine</DisplayName>
+      <Icon>Textures/textures/V8/GUI/V8.dds</Icon>
+      <CubeSize>Small</CubeSize>
+      <BlockTopology>TriangleMesh</BlockTopology>
+      <Size x="3" y="3" z="4" />
+      <ModelOffset x="0" y="0" z="0" />
+      <Model>Models/V8/Engine.mwm</Model>
+      <Components>
+        <Component Subtype="SteelPlate" Count="35" />
+		<Component Subtype="Crystalline" Count="30" />
+        <Component Subtype="Construction" Count="30" />
+        <Component Subtype="MetalGrid" Count="2" />
+        <Component Subtype="LargeTube" Count="6" />
+        <Component Subtype="Reactor" Count="70" />
+        <Component Subtype="Motor" Count="4" />
+        <Component Subtype="Computer" Count="20" />
+        <Component Subtype="SteelPlate" Count="20" />
+      </Components>
+      <CriticalComponent Subtype="Reactor" Index="0" />
+      <BuildProgressModels>
+        <Model BuildPercentUpperBound="0.50" File="Models/V8/Engine.mwm" />
+        <Model BuildPercentUpperBound="1.00" File="Models/V8/Engine.mwm" />
+      </BuildProgressModels>
+      <BlockPairName>V8Engine</BlockPairName>
+      <MirroringY>Z</MirroringY>
+      <MirroringZ>Y</MirroringZ>
+      <EdgeType>Light</EdgeType>
+      <BuildTimeSeconds>32</BuildTimeSeconds>
+      <MaxPowerOutput>2.0</MaxPowerOutput>
+      <InventorySize>
+        <X>0.5</X>
+        <Y>0.5</Y>
+        <Z>0.5</Z>
+      </InventorySize>
+      <FuelId>
+        <TypeId>Ingot</TypeId>
+        <SubtypeId>Uranium</SubtypeId>
+      </FuelId>
+      <PrimarySound>ShipSmNuclearSm</PrimarySound>
+    </Definition>
+    <Definition xsi:type="MyObjectBuilder_ReactorDefinition">
+      <Id>
+        <TypeId>Reactor</TypeId>
+        <SubtypeId>V8EngineTurbo</SubtypeId>
+      </Id>
+      <DisplayName>V8 Engine Turbo</DisplayName>
+      <Icon>Textures/textures/V8/GUI/V8.dds</Icon>
+      <CubeSize>Small</CubeSize>
+      <BlockTopology>TriangleMesh</BlockTopology>
+      <Size x="3" y="3" z="3" />
+      <ModelOffset x="0" y="0" z="0" />
+      <Model>Models/V8/Engine_Turbo.mwm</Model>
+      <Components>
+        <Component Subtype="SteelPlate" Count="35" />
+		<Component Subtype="Crystalline" Count="30" />
+        <Component Subtype="Construction" Count="30" />
+        <Component Subtype="MetalGrid" Count="2" />
+        <Component Subtype="LargeTube" Count="6" />
+        <Component Subtype="Reactor" Count="70" />
+        <Component Subtype="Motor" Count="4" />
+        <Component Subtype="Computer" Count="20" />
+        <Component Subtype="SteelPlate" Count="20" />
+      </Components>
+      <CriticalComponent Subtype="Reactor" Index="0" />
+      <BuildProgressModels>
+        <Model BuildPercentUpperBound="0.50" File="Models/V8/Engine_Turbo.mwm" />
+        <Model BuildPercentUpperBound="1.00" File="Models/V8/Engine_Turbo.mwm" />
+      </BuildProgressModels>
+      <BlockPairName>V8EngineTurbo</BlockPairName>
+      <MirroringY>Z</MirroringY>
+      <MirroringZ>Y</MirroringZ>
+      <EdgeType>Light</EdgeType>
+      <BuildTimeSeconds>32</BuildTimeSeconds>
+      <MaxPowerOutput>3.0</MaxPowerOutput>
+      <InventorySize>
+        <X>0.5</X>
+        <Y>0.5</Y>
+        <Z>0.5</Z>
+      </InventorySize>
+      <FuelId>
+        <TypeId>Ingot</TypeId>
+        <SubtypeId>Uranium</SubtypeId>
+      </FuelId>
+      <PrimarySound>ShipSmNuclearSm</PrimarySound>
+    </Definition>
+    <Definition xsi:type="MyObjectBuilder_ReactorDefinition">
+      <Id>
+        <TypeId>Reactor</TypeId>
+        <SubtypeId>Azreactorsmall</SubtypeId>
+      </Id>
+      <DisplayName>Azimuth Reactor</DisplayName>
+      <Icon>Textures/textures/V8/GUI/Azreactor.dds</Icon>
+      <CubeSize>Small</CubeSize>
+      <BlockTopology>TriangleMesh</BlockTopology>
+      <Size x="3" y="3" z="3" />
+      <ModelOffset x="0" y="0" z="0" />
+      <Model>Models/V8/Azreactor.mwm</Model>
+      <Components>
+        <Component Subtype="SteelPlate" Count="60" />
+		<Component Subtype="Crystalline" Count="50" />
+        <Component Subtype="Construction" Count="45" />
+        <Component Subtype="MetalGrid" Count="8" />
+        <Component Subtype="LargeTube" Count="6" />
+        <Component Subtype="Reactor" Count="150" />
+        <Component Subtype="Motor" Count="20" />
+        <Component Subtype="Computer" Count="40" />
+        <Component Subtype="SteelPlate" Count="225" />
+      </Components>
+      <CriticalComponent Subtype="Reactor" Index="0" />
+      <BuildProgressModels>
+        <Model BuildPercentUpperBound="0.50" File="Models/V8/Azreactor.mwm" />
+        <Model BuildPercentUpperBound="1.00" File="Models/V8/Azreactor.mwm" />
+      </BuildProgressModels>
+      <BlockPairName>Azreactor</BlockPairName>
+      <MirroringY>Z</MirroringY>
+      <MirroringZ>Y</MirroringZ>
+      <EdgeType>Light</EdgeType>
+      <BuildTimeSeconds>42</BuildTimeSeconds>
+      <MaxPowerOutput>6.0</MaxPowerOutput>
+      <InventorySize>
+        <X>0.5</X>
+        <Y>0.5</Y>
+        <Z>0.5</Z>
+      </InventorySize>
+      <FuelId>
+        <TypeId>Ingot</TypeId>
+        <SubtypeId>Uranium</SubtypeId>
+      </FuelId>
+      <PrimarySound>ShipSmNuclearSm</PrimarySound>
+    </Definition>
+    <Definition xsi:type="MyObjectBuilder_ReactorDefinition">
+      <Id>
+        <TypeId>Reactor</TypeId>
+        <SubtypeId>Azreactorlarge</SubtypeId>
+      </Id>
+      <DisplayName>Azimuth Reactor</DisplayName>
+      <Icon>Textures/textures/V8/GUI/Azreactor.dds</Icon>
+      <CubeSize>Large</CubeSize>
+      <BlockTopology>TriangleMesh</BlockTopology>
+      <Size x="3" y="3" z="3" />
+      <ModelOffset x="0" y="0" z="0" />
+      <Model>Models/V8/Azreactorlarge.mwm</Model>
+      <Components>
+        <Component Subtype="SteelPlate" Count="900" />
+		<Component Subtype="Crystalline" Count="100" />
+        <Component Subtype="Construction" Count="90" />
+        <Component Subtype="MetalGrid" Count="35" />
+        <Component Subtype="LargeTube" Count="50" />
+        <Component Subtype="Reactor" Count="2500" />
+        <Component Subtype="Motor" Count="20" />
+        <Component Subtype="Computer" Count="80" />
+        <Component Subtype="SteelPlate" Count="300" />
+      </Components>
+      <CriticalComponent Subtype="Reactor" Index="0" />
+      <BuildProgressModels>
+        <Model BuildPercentUpperBound="0.50" File="Models/V8/Azreactorlarge.mwm" />
+        <Model BuildPercentUpperBound="1.00" File="Models/V8/Azreactorlarge.mwm" />
+      </BuildProgressModels>
+      <BlockPairName>Azreactor</BlockPairName>
+      <MirroringY>Z</MirroringY>
+      <MirroringZ>Y</MirroringZ>
+      <EdgeType>Light</EdgeType>
+      <BuildTimeSeconds>110</BuildTimeSeconds>
+      <MaxPowerOutput>140</MaxPowerOutput>
+      <InventorySize>
+        <X>0.5</X>
+        <Y>0.5</Y>
+        <Z>0.5</Z>
+      </InventorySize>
+      <FuelId>
+        <TypeId>Ingot</TypeId>
+        <SubtypeId>Uranium</SubtypeId>
+      </FuelId>
+      <PrimarySound>ShipLrgNuclearLrg</PrimarySound>
+    </Definition>
+    <!-- Region BatteryBlock-->
+    <Definition xsi:type="MyObjectBuilder_BatteryBlockDefinition">
+      <Id>
+        <TypeId>BatteryBlock</TypeId>
+        <SubtypeId>AzBatteryLarge</SubtypeId>
+      </Id>
+      <DisplayName>Az Battery</DisplayName>
+      <Icon>Textures/textures/V8/GUI/battery.dds</Icon>
+      <CubeSize>Large</CubeSize>
+      <BlockTopology>TriangleMesh</BlockTopology>
+      <Size x="1" y="1" z="1" />
+      <ModelOffset x="0" y="0" z="0" />
+      <Model>Models/V8/AzBatteryLarge.mwm</Model>
+      <Components>
+        <Component Subtype="SteelPlate" Count="30" />
+		<Component Subtype="Crystalline" Count="20" />
+        <Component Subtype="Construction" Count="10" />
+        <Component Subtype="MetalGrid" Count="10" />
+        <Component Subtype="PowerCell" Count="200" />
+        <Component Subtype="Computer" Count="35" />
+        <Component Subtype="Construction" Count="30" />
+        <Component Subtype="SteelPlate" Count="90" />
+      </Components>
+      <CriticalComponent Subtype="Computer" Index="0" />
+      <MountPoints />
+      <BuildProgressModels>
+        <Model BuildPercentUpperBound="0.33" File="Models/V8/AzBatteryLarge_Construction_1.mwm" />
+        <Model BuildPercentUpperBound="0.66" File="Models/V8/AzBatteryLarge_Construction_1.mwm" />
+        <Model BuildPercentUpperBound="1.00" File="Models/V8/AzBatteryLarge_Construction_1.mwm" />
+      </BuildProgressModels>
+      <MirroringY>Z</MirroringY>
+      <MirroringZ>Y</MirroringZ>
+      <BlockPairName>AzBattery</BlockPairName>
+      <EdgeType>Light</EdgeType>
+      <BuildTimeSeconds>55</BuildTimeSeconds>
+      <MaxPowerOutput>5</MaxPowerOutput>
+      <RequiredPowerInput>5</RequiredPowerInput>
+      <MaxStoredPower>2</MaxStoredPower>
+      <InventorySize>
+        <X>1</X>
+        <Y>1</Y>
+        <Z>1</Z>
+      </InventorySize>
+    </Definition>
+    <Definition xsi:type="MyObjectBuilder_BatteryBlockDefinition">
+      <Id>
+        <TypeId>BatteryBlock</TypeId>
+        <SubtypeId>AzBatterySmall</SubtypeId>
+      </Id>
+      <DisplayName>Az Battery</DisplayName>
+      <Icon>Textures/textures/V8/GUI/battery.dds</Icon>
+      <CubeSize>Small</CubeSize>
+      <BlockTopology>TriangleMesh</BlockTopology>
+      <Size x="3" y="1" z="3" />
+      <ModelOffset x="0" y="0" z="0" />
+      <Model>Models/V8/AzBattery.mwm</Model>
+      <Components>
+        <Component Subtype="SteelPlate" Count="10" />
+		<Component Subtype="Crystalline" Count="5" />
+        <Component Subtype="Construction" Count="4" />
+        <Component Subtype="MetalGrid" Count="6" />
+        <Component Subtype="PowerCell" Count="40" />
+        <Component Subtype="Computer" Count="20" />
+        <Component Subtype="Construction" Count="8" />
+        <Component Subtype="SteelPlate" Count="40" />
+      </Components>
+      <CriticalComponent Subtype="Computer" Index="0" />
+      <MountPoints />
+      <BuildProgressModels>
+        <Model BuildPercentUpperBound="0.50" File="Models/V8/AzBattery_Construction_1.mwm" />
+        <Model BuildPercentUpperBound="1.00" File="Models/V8/AzBattery_Construction_1.mwm" />
+      </BuildProgressModels>
+      <MirroringY>Z</MirroringY>
+      <MirroringZ>Y</MirroringZ>
+      <Center x="1" y="0" z="1" />
+      <BlockPairName>AzBattery</BlockPairName>
+      <EdgeType>Light</EdgeType>
+      <BuildTimeSeconds>35</BuildTimeSeconds>
+      <MaxPowerOutput>2.20</MaxPowerOutput>
+      <RequiredPowerInput>2.20</RequiredPowerInput>
+      <MaxStoredPower>0.80</MaxStoredPower>
+      <InventorySize>
+        <X>1</X>
+        <Y>1</Y>
+        <Z>1</Z>
+      </InventorySize>
+    </Definition>
+    <!-- End Region BatteryBlock-->
+	
+    <Definition xsi:type="MyObjectBuilder_ReactorDefinition">
+      <Id>
+        <TypeId>Reactor</TypeId>
+        <SubtypeId>AzFusionreactorlarge</SubtypeId>
+      </Id>
+      <DisplayName>Az Fusion Reactor</DisplayName>
+      <Icon>Textures/textures/V8/GUI/FusionReactor.dds</Icon>
+      <CubeSize>Large</CubeSize>
+      <BlockTopology>TriangleMesh</BlockTopology>
+      <Size x="3" y="2" z="3" />
+      <ModelOffset x="0" y="0" z="0" />
+      <Model>Models/V8/FusionReactor.mwm</Model>
+      <Components>
+        <Component Subtype="SteelPlate" Count="2750" />
+		<Component Subtype="Crystalline" Count="100" />
+        <Component Subtype="Construction" Count="300" />
+        <Component Subtype="MetalGrid" Count="80" />
+        <Component Subtype="LargeTube" Count="110" />
+        <Component Subtype="Reactor" Count="5600" />
+        <Component Subtype="Motor" Count="120" />
+        <Component Subtype="Computer" Count="225" />
+        <Component Subtype="SteelPlate" Count="150" />
+      </Components>
+      <CriticalComponent Subtype="Reactor" Index="0" />
+      <BuildProgressModels>
+        <Model BuildPercentUpperBound="0.20" File="Models/V8/Construction/FusionReactor_Construction_1.mwm" />
+        <Model BuildPercentUpperBound="0.40" File="Models/V8/Construction/FusionReactor_Construction_2.mwm" />
+        <Model BuildPercentUpperBound="0.60" File="Models/V8/Construction/FusionReactor_Construction_3.mwm" />
+        <Model BuildPercentUpperBound="0.80" File="Models/V8/Construction/FusionReactor_Construction_4.mwm" />
+        <Model BuildPercentUpperBound="1.00" File="Models/V8/Construction/FusionReactor_Construction_5.mwm" />
+      </BuildProgressModels>
+      <BlockPairName>AzFusionReactor</BlockPairName>
+      <MirroringY>Z</MirroringY>
+      <MirroringZ>Y</MirroringZ>
+      <EdgeType>Light</EdgeType>
+      <BuildTimeSeconds>180</BuildTimeSeconds>
+      <MaxPowerOutput>280</MaxPowerOutput>
+      <InventorySize>
+        <X>0.5</X>
+        <Y>0.5</Y>
+        <Z>0.5</Z>
+      </InventorySize>
+      <FuelId>
+        <TypeId>Ingot</TypeId>
+        <SubtypeId>Uranium</SubtypeId>
+      </FuelId>
+      <PrimarySound>ShipLrgNuclearLrg</PrimarySound>
+    </Definition>
+    <Definition xsi:type="MyObjectBuilder_ReactorDefinition">
+      <Id>
+        <TypeId>Reactor</TypeId>
+        <SubtypeId>AzFusionreactorsmall</SubtypeId>
+      </Id>
+      <DisplayName>Az Fusion Reactor Small</DisplayName>
+      <Icon>Textures/textures/V8/GUI/FusionReactor.dds</Icon>
+      <CubeSize>Small</CubeSize>
+      <BlockTopology>TriangleMesh</BlockTopology>
+      <Size x="3" y="2" z="3" />
+      <ModelOffset x="0" y="0" z="0" />
+      <Model>Models/V8/FusionReactorsmall.mwm</Model>
+      <Components>
+        <Component Subtype="SteelPlate" Count="95" />
+		<Component Subtype="Crystalline" Count="60" />
+        <Component Subtype="Construction" Count="90" />
+        <Component Subtype="MetalGrid" Count="8" />
+        <Component Subtype="LargeTube" Count="12" />
+        <Component Subtype="Reactor" Count="190" />
+        <Component Subtype="Motor" Count="12" />
+        <Component Subtype="Computer" Count="30" />
+        <Component Subtype="SteelPlate" Count="40" />
+      </Components>
+      <CriticalComponent Subtype="Reactor" Index="0" />
+      <BuildProgressModels>
+        <Model BuildPercentUpperBound="0.20" File="Models/V8/Construction/FusionReactorsmall_Construction_1.mwm" />
+        <Model BuildPercentUpperBound="0.60" File="Models/V8/Construction/FusionReactorsmall_Construction_2.mwm" />
+        <Model BuildPercentUpperBound="1.00" File="Models/V8/Construction/FusionReactorsmall_Construction_3.mwm" />
+      </BuildProgressModels>
+      <BlockPairName>AzFusionReactor</BlockPairName>
+      <MirroringY>Z</MirroringY>
+      <MirroringZ>Y</MirroringZ>
+      <EdgeType>Light</EdgeType>
+      <BuildTimeSeconds>50</BuildTimeSeconds>
+      <MaxPowerOutput>9</MaxPowerOutput>
+      <InventorySize>
+        <X>0.5</X>
+        <Y>0.5</Y>
+        <Z>0.5</Z>
+      </InventorySize>
+      <FuelId>
+        <TypeId>Ingot</TypeId>
+        <SubtypeId>Uranium</SubtypeId>
+      </FuelId>
+      <PrimarySound>ShipLrgNuclearLrg</PrimarySound>
+    </Definition>
+<!-- End Azimuth V8 Engines and Battieries Region -->
+
+<!-- Start Azimuth Assembler Region -->
+    <Definition xsi:type="MyObjectBuilder_AssemblerDefinition">
+      <Id>
+        <TypeId>Assembler</TypeId>
+        <SubtypeId>AzSmallAssembler</SubtypeId>
+      </Id>
+      <DisplayName>Azimuth Assembler</DisplayName>
+      <Icon>Textures\GUI\Icons\Cubes\AzAssembler.dds</Icon>
+      <CubeSize>Small</CubeSize>
+      <BlockTopology>TriangleMesh</BlockTopology>
+      <Size x="3" y="3" z="3" />
+      <ModelOffset x="0" y="0" z="0" />
+      <MirroringZ>Y</MirroringZ>
+	  <MirroringY>Z</MirroringY>
+      <Model>Models\Cubes\Large\AzAssembler.mwm</Model>
+      <Components>
+        <Component Subtype="SteelPlate" Count="90" />
+		<Component Subtype="Crystalline" Count="60" />
+        <Component Subtype="Construction" Count="20" />
+        <Component Subtype="SmallTube" Count="6" />
+        <Component Subtype="Motor" Count="4" />
+        <Component Subtype="Display" Count="2" />
+        <Component Subtype="Computer" Count="40" />
+        <Component Subtype="SteelPlate" Count="10" />
+      </Components>
+      <CriticalComponent Subtype="Computer" Index="0" />
+      <BuildProgressModels>
+        <Model BuildPercentUpperBound="0.20" File="Models\Cubes\Large\AzAssembler_Construction_1.mwm" />
+        <Model BuildPercentUpperBound="0.45" File="Models\Cubes\Large\AzAssembler_Construction_2.mwm" />
+        <Model BuildPercentUpperBound="0.75" File="Models\Cubes\Large\AzAssembler_Construction_3.mwm" />
+        <Model BuildPercentUpperBound="1.00" File="Models\Cubes\Large\AzAssembler_Construction_4.mwm" />
+      </BuildProgressModels>
+      <BlockPairName>AzAssembler</BlockPairName>
+      <EdgeType>Light</EdgeType>
+      <BuildTimeSeconds>80</BuildTimeSeconds>
+      <InventoryMaxVolume>1</InventoryMaxVolume>
+      <InventorySize>
+        <X>1</X>
+        <Y>1</Y>
+        <Z>1</Z>
+      </InventorySize>
+      <StandbyPowerConsumption>0.001</StandbyPowerConsumption>
+      <OperationalPowerConsumption>0.56</OperationalPowerConsumption>
+      <BlueprintClasses>
+        <Class>LargeBlocks</Class>
+        <Class>SmallBlocks</Class>
+        <Class>Components</Class>
+        <Class>Tools</Class>
+      </BlueprintClasses>
+    </Definition>
+<!-- End Azimuth Assembler Region -->
+
+<!-- Start Azimuth Cockpits Region -->
+    <Definition xsi:type="MyObjectBuilder_CockpitDefinition">
+      <Id>
+        <TypeId>Cockpit</TypeId>
+        <SubtypeId>AzCockpitSmall</SubtypeId>
+      </Id>
+      <DisplayName>Azimuth Cockpit</DisplayName>
+      <Icon>textures\Cockpit\GUI\AzCockpit.dds</Icon>
+      <CubeSize>Small</CubeSize>
+      <BlockTopology>TriangleMesh</BlockTopology>
+      <Size x="3" y="3" z="6" />
+      <ModelOffset x="0" y="0" z="0" />
+      <Model>models\Cockpit\Cockpit_test.mwm</Model>
+      <InteriorModel>models\Cockpit\Cockpit_test_inside.mwm</InteriorModel>
+      <CharacterAnimation>FighterCockpitPosture</CharacterAnimation>
+      <Components>
+        <Component Subtype="Construction" Count="20" />
+		<Component Subtype="Crystalline" Count="10" />
+        <Component Subtype="Motor" Count="1" />
+        <Component Subtype="SteelPlate" Count="10" />
+        <Component Subtype="InteriorPlate" Count="15" />
+        <Component Subtype="Display" Count="4" />
+        <Component Subtype="Computer" Count="20" />
+        <Component Subtype="BulletproofGlass" Count="40" />
+        <Component Subtype="SteelPlate" Count="8" />
+      </Components>
+      <CriticalComponent Subtype="Computer" Index="0" />
+
+      <MountPoints>
+        <MountPoint Side="Bottom" StartX="0" StartY="0" EndX="6" EndY="6" />
+        <MountPoint Side="Back" StartX="0" StartY="0" EndX="3" EndY="3" />
+        <MountPoint Side="Front" StartX="0" StartY="0" EndX="3" EndY="2" />
+        <MountPoint Side="Left" StartX="0" StartY="0" EndX="6" EndY="1" />
+        <MountPoint Side="Left" StartX="3" StartY="1" EndX="5" EndY="2" />
+        <MountPoint Side="Left" StartX="5" StartY="1" EndX="6" EndY="3" />
+		
+        <MountPoint Side="Right" StartX="0" StartY="0" EndX="6" EndY="1" />
+        <MountPoint Side="Right" StartX="0" StartY="1" EndX="1" EndY="3" />
+        <MountPoint Side="Right" StartX="1" StartY="1" EndX="2" EndY="2" />
+      </MountPoints>
+      <BuildProgressModels>
+        <Model BuildPercentUpperBound="0.10" File="models\Cockpit\Cockpit_test_Construction_1.mwm" />
+        <Model BuildPercentUpperBound="0.35" File="models\Cockpit\Cockpit_test_Construction_2.mwm" />
+        <Model BuildPercentUpperBound="0.75" File="models\Cockpit\Cockpit_test_Construction_3.mwm" />
+        <Model BuildPercentUpperBound="1.00" File="models\Cockpit\Cockpit_test_Construction_4.mwm" />
+      </BuildProgressModels>
+      <BlockPairName>AzCockpit</BlockPairName>
+      <MirroringZ>Y</MirroringZ>
+	  <MirroringY>Z</MirroringY>
+      <BuildTimeSeconds>34</BuildTimeSeconds>
+      <EdgeType>Light</EdgeType>
+      <EnableFirstPerson>true</EnableFirstPerson>
+      <EnableShipControl>true</EnableShipControl>
+    </Definition>
+    <Definition xsi:type="MyObjectBuilder_CockpitDefinition">
+      <Id>
+        <TypeId>Cockpit</TypeId>
+        <SubtypeId>AzPassengerSeatSmall</SubtypeId>
+      </Id>
+      <DisplayName>Az Passenger Seat</DisplayName>
+      <Icon>Textures\GUI\Icons\Cubes\AzSeat.dds</Icon>
+      <CubeSize>Small</CubeSize>
+      <BlockTopology>TriangleMesh</BlockTopology>
+      <Size x="1" y="3" z="2" />
+      <ModelOffset x="0" y="0" z="-0.3" />
+      <Model>Models\Cubes\Small\AzPassengerSeat.mwm</Model>
+      <PrimarySound>BlockCockpitSm</PrimarySound>
+      <CharacterAnimation>Azpassengerseat_small</CharacterAnimation>
+      <Components>
+        <Component Subtype="InteriorPlate" Count="10" />
+		<Component Subtype="Crystalline" Count="10" />
+        <Component Subtype="Construction" Count="20" />
+        <Component Subtype="InteriorPlate" Count="10" />
+      </Components>
+      <CriticalComponent Subtype="InteriorPlate" Index="0" />
+      <BuildProgressModels>
+        <Model BuildPercentUpperBound="0.50" File="Models\Cubes\Small\AzPassengerSeat_Construction_1.mwm" />
+        <Model BuildPercentUpperBound="1.00" File="Models\Cubes\Small\AzPassengerSeat_Construction_1.mwm" />
+      </BuildProgressModels>
+      <BlockPairName>AzPassengerSeat</BlockPairName>
+      <MirroringZ>Y</MirroringZ>
+      <MirroringY>Z</MirroringY>
+      <BuildTimeSeconds>15</BuildTimeSeconds>
+      <EdgeType>Light</EdgeType>
+      <EnableFirstPerson>true</EnableFirstPerson>
+      <EnableShipControl>false</EnableShipControl>
+    </Definition>
+    <Definition xsi:type="MyObjectBuilder_CockpitDefinition">
+      <Id>
+        <TypeId>Cockpit</TypeId>
+        <SubtypeId>AzPassengerSeatLarge</SubtypeId>
+      </Id>
+      <DisplayName>Az Passenger Seat</DisplayName>
+      <Icon>Textures\GUI\Icons\Cubes\AzSeat.dds</Icon>
+      <CubeSize>Large</CubeSize>
+      <BlockTopology>TriangleMesh</BlockTopology>
+      <Size x="1" y="1" z="1" />
+      <ModelOffset x="0" y="0" z="0" />
+      <Model>Models\Cubes\Large\AzPassengerSeatLarge.mwm</Model>
+      <PrimarySound>BlockCockpitSm</PrimarySound>
+      <CharacterAnimation>Azpassengerseat_Large</CharacterAnimation>
+      <Components>
+        <Component Subtype="InteriorPlate" Count="10" />
+        <Component Subtype="Construction" Count="20" />
+        <Component Subtype="InteriorPlate" Count="10" />
+      </Components>
+      <CriticalComponent Subtype="InteriorPlate" Index="0" />
+      <MountPoints>
+        <MountPoint Side="Bottom" StartX="0" StartY="0" EndX="1" EndY="1" />
+        <MountPoint Side="Back" StartX="0" StartY="0" EndX="1" EndY="1" />
+      </MountPoints>
+      <BuildProgressModels>
+        <Model BuildPercentUpperBound="0.50" File="Models\Cubes\Large\AzPassengerSeatLarge_Construction_1.mwm" />
+        <Model BuildPercentUpperBound="1.00" File="Models\Cubes\Large\AzPassengerSeatLarge_Construction_1.mwm" />
+      </BuildProgressModels>
+      <BlockPairName>AzPassengerSeat</BlockPairName>
+      <MirroringZ>Y</MirroringZ>
+      <MirroringY>Z</MirroringY>
+      <BuildTimeSeconds>15</BuildTimeSeconds>
+      <EdgeType>Light</EdgeType>
+      <EnableFirstPerson>true</EnableFirstPerson>
+      <EnableShipControl>false</EnableShipControl>
+    </Definition>
+    <Definition xsi:type="MyObjectBuilder_CockpitDefinition">
+      <Id>
+        <TypeId>Cockpit</TypeId>
+        <SubtypeId>AzPassengerCockpitSmall</SubtypeId>
+      </Id>
+      <DisplayName>Az Open Cockpit</DisplayName>
+      <Icon>Textures\GUI\Icons\Cubes\AzSeat.dds</Icon>
+      <CubeSize>Small</CubeSize>
+      <BlockTopology>TriangleMesh</BlockTopology>
+      <Size x="1" y="3" z="2" />
+      <ModelOffset x="0" y="0" z="-0.3" />
+      <Model>Models\Cubes\Small\AzPassengerCockpit.mwm</Model>
+      <PrimarySound>BlockCockpitSm</PrimarySound>
+      <CharacterAnimation>cockpit1_small</CharacterAnimation>
+      <Components>
+        <Component Subtype="InteriorPlate" Count="10" />
+		<Component Subtype="Crystalline" Count="10" />
+        <Component Subtype="Construction" Count="20" />
+        <Component Subtype="InteriorPlate" Count="10" />
+      </Components>
+      <CriticalComponent Subtype="InteriorPlate" Index="0" />
+      <BuildProgressModels>
+        <Model BuildPercentUpperBound="0.50" File="Models\Cubes\Small\AzPassengerCockpit_Construction_1.mwm" />
+        <Model BuildPercentUpperBound="1.00" File="Models\Cubes\Small\AzPassengerCockpit_Construction_1.mwm" />
+      </BuildProgressModels>
+      <BlockPairName>AzSmallCockpit</BlockPairName>
+      <MirroringZ>Y</MirroringZ>
+      <MirroringY>Z</MirroringY>
+      <BuildTimeSeconds>15</BuildTimeSeconds>
+      <EdgeType>Light</EdgeType>
+      <EnableFirstPerson>true</EnableFirstPerson>
+      <EnableShipControl>true</EnableShipControl>
+    </Definition>
+
+  </CubeBlocks>
+  <BlockPositions>
+  </BlockPositions>
+</Definitions>

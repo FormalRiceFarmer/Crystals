@@ -1,0 +1,50 @@
+<?xml version="1.0"?>
+<Model Name="AzPassengerSeatLarge">
+  <Parameter Name="Centered">False</Parameter>
+  <Parameter Name="RotationY">0</Parameter>
+  <Parameter Name="RescaleFactor">0.01</Parameter>
+  <Parameter Name="RescaleToLengthInMeters">False</Parameter>
+  <Parameter Name="LengthInMeters">0.5</Parameter>
+  <Parameter Name="SpecularPower">10</Parameter>
+  <Parameter Name="SpecularShininess">0.8</Parameter>
+  <Material Name="Emissive">
+    <Parameter Name="SpecularIntensity">0</Parameter>
+    <Parameter Name="SpecularPower">2</Parameter>
+    <Parameter Name="DiffuseColorX">255</Parameter>
+    <Parameter Name="DiffuseColorY">255</Parameter>
+    <Parameter Name="DiffuseColorZ">255</Parameter>
+    <Parameter Name="Texture">Textures\Models\Cubes\large_beacon_de.dds</Parameter>
+    <Parameter Name="NormalTexture" />
+    <Parameter Name="Technique">MESH</Parameter>
+  </Material>
+  <Material Name="Body">
+    <Parameter Name="SpecularIntensity">0</Parameter>
+    <Parameter Name="SpecularPower">2</Parameter>
+    <Parameter Name="DiffuseColorX">255</Parameter>
+    <Parameter Name="DiffuseColorY">255</Parameter>
+    <Parameter Name="DiffuseColorZ">255</Parameter>
+    <Parameter Name="Texture">Textures\Models\Cubes\large_beacon_me.dds</Parameter>
+    <Parameter Name="NormalTexture" />
+    <Parameter Name="Technique">MESH</Parameter>
+  </Material>
+  <Material Name="Leather">
+    <Parameter Name="SpecularIntensity">0</Parameter>
+    <Parameter Name="SpecularPower">2</Parameter>
+    <Parameter Name="DiffuseColorX">255</Parameter>
+    <Parameter Name="DiffuseColorY">255</Parameter>
+    <Parameter Name="DiffuseColorZ">255</Parameter>
+    <Parameter Name="Texture">Textures\Models\Cubes\AzLeather_me.dds</Parameter>
+    <Parameter Name="NormalTexture" />
+    <Parameter Name="Technique">MESH</Parameter>
+  </Material>
+  <Material Name="Logo">
+    <Parameter Name="SpecularIntensity">0</Parameter>
+    <Parameter Name="SpecularPower">2</Parameter>
+    <Parameter Name="DiffuseColorX">255</Parameter>
+    <Parameter Name="DiffuseColorY">255</Parameter>
+    <Parameter Name="DiffuseColorZ">255</Parameter>
+    <Parameter Name="Texture">Textures\Models\Cubes\Az_logo_me.dds</Parameter>
+    <Parameter Name="NormalTexture" />
+    <Parameter Name="Technique">MESH</Parameter>
+  </Material>
+</Model>

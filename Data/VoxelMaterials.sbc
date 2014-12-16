@@ -1,0 +1,21 @@
+<?xml version="1.0"?>
+<Definitions xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:xsd="http://www.w3.org/2001/XMLSchema">
+  <VoxelMaterials>
+    <VoxelMaterial>
+      <Id>
+        <TypeId>VoxelMaterialDefinition</TypeId>
+        <SubtypeId>Crystal_01</SubtypeId>
+      </Id>
+      <MinedOre>Crystal</MinedOre>
+      <MinedOreRatio>1</MinedOreRatio>
+      <CanBeHarvested>true</CanBeHarvested>
+      <IsRare>true</IsRare>
+      <IsIndestructible>false</IsIndestructible>
+      <DamageRatio>1</DamageRatio>
+      <DiffuseXZ>Textures\Voxels\Crystal_01_ForAxisXZ_de.dds</DiffuseXZ>
+      <NormalXZ>Textures\Voxels\Crystal_01_ForAxisXZ_ns.dds</NormalXZ>
+      <SpecularPower>75.3</SpecularPower>
+      <SpecularShininess>0.498</SpecularShininess>
+    </VoxelMaterial>
+  </VoxelMaterials>
+</Definitions>

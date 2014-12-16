@@ -1,0 +1,68 @@
+<?xml version="1.0"?>
+<Model Name="AzBatteryLarge">
+  <Parameter Name="Centered">false</Parameter>
+  <Parameter Name="RescaleFactor">0.01</Parameter>
+  <Parameter Name="RescaleToLengthInMeters">false</Parameter>
+  <Parameter Name="SpecularPower">10</Parameter>
+  <Parameter Name="SpecularShininess">0.8</Parameter>
+  <Material Name="Emissive0">
+    <Parameter Name="SpecularIntensity">2</Parameter>
+    <Parameter Name="SpecularPower">4</Parameter>
+    <Parameter Name="DiffuseColorX">255</Parameter>
+    <Parameter Name="DiffuseColorY">255</Parameter>
+    <Parameter Name="DiffuseColorZ">255</Parameter>
+    <Parameter Name="Texture">Textures\Models\LargePanel_me.dds</Parameter>
+    <Parameter Name="Technique">MESH</Parameter>
+    <Parameter Name="NormalTexture" />
+  </Material>
+  <Material Name="Body">
+    <Parameter Name="SpecularIntensity">1</Parameter>
+    <Parameter Name="SpecularPower">2</Parameter>
+    <Parameter Name="DiffuseColorX">255</Parameter>
+    <Parameter Name="DiffuseColorY">255</Parameter>
+    <Parameter Name="DiffuseColorZ">255</Parameter>
+    <Parameter Name="Texture">Textures\Models\LargePanel_me.dds</Parameter>
+    <Parameter Name="Technique">MESH</Parameter>
+    <Parameter Name="NormalTexture" />
+  </Material>
+  <Material Name="Emissive3">
+    <Parameter Name="SpecularIntensity">2</Parameter>
+    <Parameter Name="SpecularPower">4</Parameter>
+    <Parameter Name="DiffuseColorX">255</Parameter>
+    <Parameter Name="DiffuseColorY">255</Parameter>
+    <Parameter Name="DiffuseColorZ">255</Parameter>
+    <Parameter Name="Texture">Textures\Models\LargePanel_me.dds</Parameter>
+    <Parameter Name="Technique">MESH</Parameter>
+    <Parameter Name="NormalTexture" />
+  </Material>
+  <Material Name="Emissive2">
+    <Parameter Name="SpecularIntensity">2</Parameter>
+    <Parameter Name="SpecularPower">4</Parameter>
+    <Parameter Name="DiffuseColorX">255</Parameter>
+    <Parameter Name="DiffuseColorY">255</Parameter>
+    <Parameter Name="DiffuseColorZ">255</Parameter>
+    <Parameter Name="Texture">Textures\Models\LargePanel_me.dds</Parameter>
+    <Parameter Name="Technique">MESH</Parameter>
+    <Parameter Name="NormalTexture" />
+  </Material>
+  <Material Name="Emissive1">
+    <Parameter Name="SpecularIntensity">2</Parameter>
+    <Parameter Name="SpecularPower">4</Parameter>
+    <Parameter Name="DiffuseColorX">255</Parameter>
+    <Parameter Name="DiffuseColorY">255</Parameter>
+    <Parameter Name="DiffuseColorZ">255</Parameter>
+    <Parameter Name="Texture">Textures\Models\LargePanel_me.dds</Parameter>
+    <Parameter Name="Technique">MESH</Parameter>
+    <Parameter Name="NormalTexture" />
+  </Material>
+  <Material Name="Terminal_M">
+    <Parameter Name="SpecularIntensity">1</Parameter>
+    <Parameter Name="SpecularPower">2</Parameter>
+    <Parameter Name="DiffuseColorX">255</Parameter>
+    <Parameter Name="DiffuseColorY">255</Parameter>
+    <Parameter Name="DiffuseColorZ">255</Parameter>
+    <Parameter Name="Texture">Textures\Models\large_interior_turret_me.dds</Parameter>
+    <Parameter Name="Technique">MESH</Parameter>
+    <Parameter Name="NormalTexture" />
+  </Material>
+</Model>
