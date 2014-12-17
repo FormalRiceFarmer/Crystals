@@ -9,8 +9,8 @@
       <Prerequisites>
         <Item Amount="1" TypeId="Ore" SubtypeId="Crystal" />
       </Prerequisites>
-      <Result Amount="0.4" TypeId="Ingot" SubtypeId="Crystal" />
-      <BaseProductionTimeInSeconds>40</BaseProductionTimeInSeconds>
+      <Result Amount="0.5" TypeId="Ingot" SubtypeId="Crystal" />
+      <BaseProductionTimeInSeconds>10</BaseProductionTimeInSeconds>
     </Blueprint>
     <Blueprint>
       <Id>

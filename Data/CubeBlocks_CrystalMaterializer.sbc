@@ -1,0 +1,104 @@
+<?xml version="1.0"?>
+<Definitions xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:xsd="http://www.w3.org/2001/XMLSchema">
+  <CubeBlocks>
+    <Definition xsi:type="MyObjectBuilder_RefineryDefinition">
+      <Id>
+        <TypeId>Refinery</TypeId>
+        <SubtypeId>CrystalMaterializer</SubtypeId>
+      </Id>
+      <DisplayName>Crystal Materializer</DisplayName>
+      <Icon>Textures\uraniumcentrifuge.dds</Icon>
+      <CubeSize>Large</CubeSize>
+      <BlockTopology>TriangleMesh</BlockTopology>
+      <Size x="1" y="1" z="1" />
+      <ModelOffset x="0" y="0" z="0" />
+      <Model>Models\uraniumcentrifuge.mwm</Model>
+      <Components>
+        <Component Subtype="SteelPlate" Count="40" />
+        <Component Subtype="Crystalline" Count="1" />
+        <Component Subtype="Construction" Count="15" />
+        <Component Subtype="Motor" Count="30" />
+        <Component Subtype="LargeTube" Count="15" />
+        <Component Subtype="Computer" Count="5" />
+        <Component Subtype="Construction" Count="5" />
+        <Component Subtype="SteelPlate" Count="20" />
+      </Components>
+      <CriticalComponent Subtype="Computer" Index="0" />
+      <BuildProgressModels>
+        <Model BuildPercentUpperBound="0.33" File="Models\uraniumcentrifuge_1.mwm" />
+        <Model BuildPercentUpperBound="0.66" File="Models\uraniumcentrifuge_2.mwm" />
+        <Model BuildPercentUpperBound="1.00" File="Models\uraniumcentrifuge_3.mwm" />
+      </BuildProgressModels>
+      <BlockPairName>CrystalMaterializer</BlockPairName>
+      <EdgeType>Light</EdgeType>
+      <BuildTimeSeconds>25</BuildTimeSeconds>
+      <InventoryMaxVolume>1</InventoryMaxVolume>
+      <InventorySize>
+        <X>2</X>
+        <Y>2</Y>
+        <Z>2</Z>
+      </InventorySize>
+      <StandbyPowerConsumption>0.002</StandbyPowerConsumption>
+      <OperationalPowerConsumption>140</OperationalPowerConsumption>
+      <BlueprintClasses>
+        <Class>CrystalMaterializer</Class>
+      </BlueprintClasses>
+      <RefineSpeed>1</RefineSpeed>
+      <MaterialEfficiency>1</MaterialEfficiency>
+    </Definition>
+    <Definition xsi:type="MyObjectBuilder_RefineryDefinition">
+      <Id>
+        <TypeId>Refinery</TypeId>
+        <SubtypeId>CrystalMaterializerSmall</SubtypeId>
+      </Id>
+      <DisplayName>Small Black Hole Cache</DisplayName>
+      <Icon>Textures\uraniumcentrifuge.dds</Icon>
+      <CubeSize>Small</CubeSize>
+      <BlockTopology>TriangleMesh</BlockTopology>
+      <Size x="5" y="3" z="5" />
+      <ModelOffset x="0" y="0" z="0" />
+      <Model>Models\uraniumcentrifugesmall.mwm</Model>
+      <Components>
+        <Component Subtype="SteelPlate" Count="20" />
+        <Component Subtype="Crystalline" Count="1" />
+        <Component Subtype="Construction" Count="10" />
+        <Component Subtype="Motor" Count="20" />
+        <Component Subtype="LargeTube" Count="9" />
+        <Component Subtype="Computer" Count="4" />
+        <Component Subtype="Construction" Count="2" />
+        <Component Subtype="SteelPlate" Count="15" />
+      </Components>
+      <CriticalComponent Subtype="Computer" Index="0" />
+      <BuildProgressModels>
+        <Model BuildPercentUpperBound="0.33" File="Models\uraniumcentrifugesmall_1.mwm" />
+        <Model BuildPercentUpperBound="0.66" File="Models\uraniumcentrifugesmall_2.mwm" />
+        <Model BuildPercentUpperBound="1.00" File="Models\uraniumcentrifugesmall_3.mwm" />
+      </BuildProgressModels>
+      <BlockPairName>CrystalMaterializer</BlockPairName>
+      <EdgeType>Light</EdgeType>
+      <BuildTimeSeconds>15</BuildTimeSeconds>
+      <InventoryMaxVolume>1</InventoryMaxVolume>
+      <InventorySize>
+        <X>2</X>
+        <Y>1</Y>
+        <Z>2</Z>
+      </InventorySize>
+      <StandbyPowerConsumption>0.002</StandbyPowerConsumption>
+      <OperationalPowerConsumption>50</OperationalPowerConsumption>
+      <BlueprintClasses>
+        <Class>CrystalMaterializer</Class>
+      </BlueprintClasses>
+      <RefineSpeed>0.275</RefineSpeed>
+      <MaterialEfficiency>1</MaterialEfficiency>
+    </Definition>
+  </CubeBlocks>
+  <BlockPositions>
+    <BlockPosition>
+      <Name>CrystalMaterializer</Name>
+      <Position>
+        <X>1</X>
+        <Y>12</Y>
+      </Position>
+    </BlockPosition>
+  </BlockPositions>
+</Definitions>
